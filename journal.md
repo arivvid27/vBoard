@@ -63,6 +63,8 @@ Sat down and actually built out my bill of materials. Went thru amazon and picke
 
 Total came out to around $160ish which isnt bad. Double checked the switch count against how many keys a 1800 layout has, should be fine with a few extra.
 
+![BOM](image-6.png)
+
 ~1 hr (setup)
 
 ---
@@ -147,6 +149,12 @@ Exported all the layer DXFs proper and gave them one more look to sanity check t
 
 ~1 hr
 
+![Bottom Plate](image-1.png)
+![Top Plate](image-2.png)
+![Closed Layer](image-3.png)
+![Open Layer](image-4.png)
+![Switch Plate](image-5.png)
+
 ---
 
 ## Sept 19 - More KiCad learning + ordered parts
@@ -183,3 +191,11 @@ Rough running total, not exact:
 - Ordering parts: ~1.5 hrs
 
 Around 21 hrs in as of today the 20th. Most of it went into the cad since im a swe and the mechanical/drawing side is all new to me. KiCad is the wall im hitting now. Goal is 30 by the end of the month, so ~9 more hrs to go once i actually get the pcb and firmware going.
+
+
+## Additional Work done on the 20th:
+Oh my gosh kicad is hard.
+
+![Before Schem](image.png)
+
+~1.5 hr
