@@ -5,6 +5,410 @@
 	(uuid "600d3fff-8dcf-4374-a4a0-84d668d9822d")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Device:RotaryEncoder_Switch"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 0 -6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4148"
 			(pin_numbers
 				(hide yes)
@@ -1598,12 +2002,6 @@
 		(uuid "0097d033-62d8-420f-ab80-96dd727305b6")
 	)
 	(junction
-		(at 205.74 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00bd52c7-8654-41b1-9553-99fb58381310")
-	)
-	(junction
 		(at 139.7 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1632,6 +2030,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06699628-a31b-48d8-b47e-35e0efb9d025")
+	)
+	(junction
+		(at 306.07 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0892b31e-dc41-45f8-9fde-a94fb85ef5c0")
 	)
 	(junction
 		(at 241.3 165.1)
@@ -1664,6 +2068,12 @@
 		(uuid "17ebf29d-6beb-447b-b1c3-1433c522499d")
 	)
 	(junction
+		(at 116.84 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18b4810a-6ee1-4937-81ae-c1bfc9c78eca")
+	)
+	(junction
 		(at 78.74 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1680,6 +2090,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d91b711-6439-4fe2-9dca-b5e7dc96be0f")
+	)
+	(junction
+		(at 53.34 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1de54ede-d70f-4ef4-b11d-15230c192eb1")
 	)
 	(junction
 		(at 78.74 54.61)
@@ -1700,6 +2116,12 @@
 		(uuid "24077487-d879-4974-bf2d-8c4e582e84f8")
 	)
 	(junction
+		(at 256.54 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "247ed928-d5ed-43e0-a172-bb8b42aa235e")
+	)
+	(junction
 		(at 27.94 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1712,10 +2134,10 @@
 		(uuid "2725e149-02ee-4270-a4ac-4589e27ce997")
 	)
 	(junction
-		(at 215.9 114.3)
+		(at 205.74 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2738a38a-015d-47e5-b46b-0a9b193a39b0")
+		(uuid "27f392fc-12df-4b6f-a928-41f0ba4f8ee1")
 	)
 	(junction
 		(at 38.1 38.1)
@@ -1746,6 +2168,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32c5095c-9591-4c44-8b7e-72f8247ba720")
+	)
+	(junction
+		(at 154.94 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32f8229b-0ae2-445f-b7e2-8ef32e5ffc9f")
 	)
 	(junction
 		(at 101.6 114.3)
@@ -1844,10 +2272,22 @@
 		(uuid "425273ba-e265-4988-bacc-7c3b5da4fc95")
 	)
 	(junction
+		(at 78.74 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "434e6d7e-1958-435f-834b-f35d63c6aec6")
+	)
+	(junction
 		(at 266.7 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43b2a7b6-95e7-4508-b73b-0cd3fd8ca580")
+	)
+	(junction
+		(at 129.54 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43e4e69d-6283-4c42-9e5a-2faf795c4b18")
 	)
 	(junction
 		(at 27.94 29.21)
@@ -1878,6 +2318,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47ca0ad6-eb3f-4d64-9df2-4a47de201a37")
+	)
+	(junction
+		(at 279.4 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4849d60b-22db-4a78-ba03-ee32af107b55")
+	)
+	(junction
+		(at 279.4 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d685397-02f4-49f3-ab40-5d6be274f093")
 	)
 	(junction
 		(at 256.54 54.61)
@@ -1946,6 +2398,12 @@
 		(uuid "566bea10-366d-4fa7-a92f-d3b9c233a43a")
 	)
 	(junction
+		(at 279.4 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "592f72ab-a3ed-4223-92f4-b450092944b9")
+	)
+	(junction
 		(at 205.74 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1982,6 +2440,12 @@
 		(uuid "5f842ca4-e93f-4db8-9a78-0ceecef89498")
 	)
 	(junction
+		(at 205.74 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60a320c9-4038-44fb-9eb5-d0e1e4fac7b1")
+	)
+	(junction
 		(at 269.24 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1998,6 +2462,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "630842ca-1a12-4ba5-a451-5601afedfcfb")
+	)
+	(junction
+		(at 256.54 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64d04d62-1aa0-4ca3-9e93-5fdeb7e5907f")
 	)
 	(junction
 		(at 269.24 29.21)
@@ -2022,6 +2492,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e55b20a-7672-4034-9534-e7f808c8826c")
+	)
+	(junction
+		(at 231.14 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f19782b-1d26-408f-b389-d109a1b43989")
 	)
 	(junction
 		(at 241.3 190.5)
@@ -2070,6 +2546,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79a2eeb4-ae74-4b85-89ca-0d3c139613fa")
+	)
+	(junction
+		(at 304.8 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79afc497-f0eb-4ae0-a4b6-c80f58496bea")
 	)
 	(junction
 		(at 177.8 114.3)
@@ -2144,10 +2626,22 @@
 		(uuid "88f58a10-91bf-431b-ac77-1e892487ed89")
 	)
 	(junction
+		(at 91.44 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88f5dba1-4dd6-4d3e-af11-4546a8c7a085")
+	)
+	(junction
 		(at 53.34 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cf78513-424c-4fe9-a42a-0298d7ca293e")
+	)
+	(junction
+		(at 78.74 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f07b962-dccc-4de4-a4f5-b348ecb004b1")
 	)
 	(junction
 		(at 139.7 114.3)
@@ -2166,6 +2660,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90d3d646-0816-492a-8160-c34355f3fa8e")
+	)
+	(junction
+		(at 304.8 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "918fb0ef-df8b-4e8d-91a1-fb19b36b9b30")
 	)
 	(junction
 		(at 88.9 139.7)
@@ -2196,12 +2696,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9940e8fa-1cf3-4a05-8915-11565df560eb")
-	)
-	(junction
-		(at 201.93 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a1fc0c1-f32a-4581-ae40-0eee162dbd57")
 	)
 	(junction
 		(at 152.4 139.7)
@@ -2240,6 +2734,12 @@
 		(uuid "ab7f0c97-ff96-449d-883a-183b87594dd3")
 	)
 	(junction
+		(at 116.84 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abce517b-c557-42a5-a8ca-6f79979150b6")
+	)
+	(junction
 		(at 53.34 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2270,6 +2770,12 @@
 		(uuid "b4b58d4e-44d5-488a-8c73-784d659977a1")
 	)
 	(junction
+		(at 269.24 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b68b40bd-ccc6-4c1e-bb1e-6ea0c9e98d1c")
+	)
+	(junction
 		(at 50.8 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2298,6 +2804,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc2f5a0b-447b-4402-a1c3-95f959778379")
+	)
+	(junction
+		(at 180.34 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf71fe87-484d-4f92-bbef-9d8ec4db432e")
 	)
 	(junction
 		(at 129.54 105.41)
@@ -2336,16 +2848,16 @@
 		(uuid "c7734736-ebef-42d6-96df-3685e0da9016")
 	)
 	(junction
+		(at 306.07 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7c04d11-f8fe-40bb-b508-c3343fdf9f02")
+	)
+	(junction
 		(at 91.44 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca1594ec-71ec-4f0c-a924-91d06caa44ea")
-	)
-	(junction
-		(at 205.74 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca414c0a-70f5-46c9-bfc7-d9c346e87675")
 	)
 	(junction
 		(at 180.34 29.21)
@@ -2414,6 +2926,12 @@
 		(uuid "d8af29ac-bb3d-4b20-a108-4cc70f59dfc5")
 	)
 	(junction
+		(at 294.64 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8d84bfb-3225-4f3a-b407-6b8286956506")
+	)
+	(junction
 		(at 66.04 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2430,6 +2948,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da01762b-27f3-4edc-99e5-5a3082d3f230")
+	)
+	(junction
+		(at 27.94 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dadff9c8-eb95-400d-8ae6-15c409ff0c61")
 	)
 	(junction
 		(at 139.7 38.1)
@@ -2492,6 +3016,12 @@
 		(uuid "e63e4688-1032-4461-8dbb-a086672f4341")
 	)
 	(junction
+		(at 167.64 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e895bd7e-b2b6-4e81-9eb2-a1924dab8125")
+	)
+	(junction
 		(at 269.24 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2532,6 +3062,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f12547a9-4dc2-41b5-92de-0615a3dcf1a3")
+	)
+	(junction
+		(at 205.74 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1f3fe7b-378f-4fcc-8666-4b3d4d83ba3a")
 	)
 	(junction
 		(at 165.1 63.5)
@@ -2600,6 +3136,12 @@
 		(uuid "fd0c5833-e070-4596-9039-2474b66fec90")
 	)
 	(junction
+		(at 304.8 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd25bebc-dad9-408c-8ea5-ae34445ecdb7")
+	)
+	(junction
 		(at 180.34 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2618,10 +3160,26 @@
 		(uuid "fee143ad-2765-499d-9b61-238e20734613")
 	)
 	(junction
+		(at 215.9 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feff48dc-bc09-4273-b4c5-a0c34134892d")
+	)
+	(junction
 		(at 104.14 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff06c959-da32-479b-aae7-9d77d9a8d3ee")
+	)
+	(wire
+		(pts
+			(xy 91.44 146.05) (xy 93.98 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00705875-fead-42c6-89d3-3da3ea6403a5")
 	)
 	(wire
 		(pts
@@ -2655,6 +3213,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 229.87) (xy 396.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03082851-3944-484a-82c5-e3800d31fcaf")
+	)
+	(wire
+		(pts
 			(xy 269.24 80.01) (xy 269.24 105.41)
 		)
 		(stroke
@@ -2672,6 +3240,16 @@
 			(type default)
 		)
 		(uuid "035654c5-768f-41e0-b9b4-a93b514ec56a")
+	)
+	(wire
+		(pts
+			(xy 167.64 156.21) (xy 167.64 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fd6c63-f9c5-453a-aae6-9b66d2e9811f")
 	)
 	(wire
 		(pts
@@ -2705,6 +3283,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 93.98) (xy 341.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f3b9ba-d138-448f-87ea-1c253be3724c")
+	)
+	(wire
+		(pts
 			(xy 165.1 139.7) (xy 177.8 139.7)
 		)
 		(stroke
@@ -2732,6 +3320,86 @@
 			(type default)
 		)
 		(uuid "0857da51-9936-44df-8e68-6bca2062c13d")
+	)
+	(wire
+		(pts
+			(xy 394.97 228.6) (xy 394.97 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b8cd4a-3a1c-4c1b-9d40-e28fd6eaabca")
+	)
+	(wire
+		(pts
+			(xy 394.97 119.38) (xy 387.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1ffed5-b293-4884-bd13-3d44cd6fcb51")
+	)
+	(wire
+		(pts
+			(xy 78.74 130.81) (xy 78.74 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7ec848-f773-4854-8e1f-4d1eea31727d")
+	)
+	(wire
+		(pts
+			(xy 327.66 114.3) (xy 341.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aabc2ce-bdbb-4ace-8f4f-10bfddd62bab")
+	)
+	(wire
+		(pts
+			(xy 180.34 156.21) (xy 180.34 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac545ba-afcf-47d7-8968-3bf3eb19693b")
+	)
+	(wire
+		(pts
+			(xy 257.81 157.48) (xy 257.81 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afd7fc9-e0f1-426a-9ec6-9d1c618672a5")
+	)
+	(wire
+		(pts
+			(xy 205.74 111.76) (xy 210.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0135c5-ed2c-4e32-ba05-726d80f88a71")
+	)
+	(wire
+		(pts
+			(xy 317.5 86.36) (xy 341.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2aa92a-bc27-4c93-a114-c3a167b78551")
 	)
 	(wire
 		(pts
@@ -2805,6 +3473,36 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 105.41) (xy 205.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d2feae-e10c-4d98-a0e5-b801cd860781")
+	)
+	(wire
+		(pts
+			(xy 129.54 200.66) (xy 330.2 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111ad919-20ff-4f6a-acfb-f01b7740e306")
+	)
+	(wire
+		(pts
+			(xy 290.83 228.6) (xy 394.97 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a491c3-cb80-449d-a312-be8ca8f5f57f")
+	)
+	(wire
+		(pts
 			(xy 254 80.01) (xy 254 81.28)
 		)
 		(stroke
@@ -2855,6 +3553,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 184.15) (xy 280.67 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15301656-b504-4ab9-b2f3-301aee29c927")
+	)
+	(wire
+		(pts
 			(xy 154.94 118.11) (xy 167.64 118.11)
 		)
 		(stroke
@@ -2862,6 +3570,16 @@
 			(type default)
 		)
 		(uuid "16063530-9a78-4068-9db2-19efb6df6a90")
+	)
+	(wire
+		(pts
+			(xy 205.74 170.18) (xy 205.74 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1656d45b-e530-4e88-aad4-96daa63c084b")
 	)
 	(wire
 		(pts
@@ -2895,6 +3613,26 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 224.79) (xy 364.49 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19edecaa-fe91-419e-a00d-7adb4abeb38e")
+	)
+	(wire
+		(pts
+			(xy 323.85 106.68) (xy 341.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b20e782-50a6-4181-89e2-714f87f3c626")
+	)
+	(wire
+		(pts
 			(xy 167.64 152.4) (xy 180.34 152.4)
 		)
 		(stroke
@@ -2902,6 +3640,16 @@
 			(type default)
 		)
 		(uuid "1e3e1295-2024-42d1-929f-8e5058555afc")
+	)
+	(wire
+		(pts
+			(xy 283.21 165.1) (xy 283.21 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7d8ba2-7402-4a63-9378-4bddc8dc6aae")
 	)
 	(wire
 		(pts
@@ -2935,6 +3683,26 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 157.48) (xy 257.81 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201b4128-aa38-480e-9eb4-af8db87cf8b2")
+	)
+	(wire
+		(pts
+			(xy 406.4 240.03) (xy 406.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ab080b-9ca7-4086-9bb6-7482acb0717a")
+	)
+	(wire
+		(pts
 			(xy 12.7 63.5) (xy 38.1 63.5)
 		)
 		(stroke
@@ -2955,6 +3723,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 237.49) (xy 403.86 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238a624e-e076-4bf9-b8c3-c2873f940ab5")
+	)
+	(wire
+		(pts
 			(xy 53.34 80.01) (xy 53.34 105.41)
 		)
 		(stroke
@@ -2965,13 +3743,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 114.3) (xy 205.74 114.3)
+			(xy 78.74 147.32) (xy 91.44 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25406203-ed58-4a45-9455-55f467d60936")
+		(uuid "254bca5e-5baa-424f-9667-b7a2966a3893")
+	)
+	(wire
+		(pts
+			(xy 93.98 204.47) (xy 326.39 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25609db0-a933-4073-a6a1-ab9165bb0026")
 	)
 	(wire
 		(pts
@@ -2982,6 +3770,16 @@
 			(type default)
 		)
 		(uuid "2564706f-c246-41d1-8962-7f123abcf50b")
+	)
+	(wire
+		(pts
+			(xy 322.58 104.14) (xy 341.63 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261a247c-f1b4-47aa-93bf-3046e83c2803")
 	)
 	(wire
 		(pts
@@ -3042,6 +3840,16 @@
 			(type default)
 		)
 		(uuid "2ba6990c-30ec-442b-a24d-b32060fdc45a")
+	)
+	(wire
+		(pts
+			(xy 116.84 130.81) (xy 116.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdcd8ba-04a4-4148-b712-79b4f84a3810")
 	)
 	(wire
 		(pts
@@ -3145,6 +3953,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 130.81) (xy 205.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343dda0a-3ba1-4bf4-ba2f-a6a0cbab139a")
+	)
+	(wire
+		(pts
 			(xy 154.94 29.21) (xy 154.94 48.26)
 		)
 		(stroke
@@ -3165,6 +3983,16 @@
 	)
 	(wire
 		(pts
+			(xy 402.59 236.22) (xy 402.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3684d086-4d64-41c3-b8be-3abdc130556d")
+	)
+	(wire
+		(pts
 			(xy 266.7 63.5) (xy 279.4 63.5)
 		)
 		(stroke
@@ -3182,6 +4010,16 @@
 			(type default)
 		)
 		(uuid "37cbcf50-8da2-49b7-bcb9-c6e64966fbc4")
+	)
+	(wire
+		(pts
+			(xy 78.74 207.01) (xy 323.85 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b6556c-e740-4c6a-83b9-6c481a61b78e")
 	)
 	(wire
 		(pts
@@ -3355,6 +4193,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 156.21) (xy 116.84 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414fc734-13b5-4ab5-845c-4a00653fcfde")
+	)
+	(wire
+		(pts
+			(xy 317.5 114.3) (xy 317.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cd9a44-fd06-4090-9ef0-d36dfc7a505c")
+	)
+	(wire
+		(pts
 			(xy 38.1 88.9) (xy 50.8 88.9)
 		)
 		(stroke
@@ -3362,6 +4220,16 @@
 			(type default)
 		)
 		(uuid "425e50eb-1a36-44d2-9785-d290addf9f9d")
+	)
+	(wire
+		(pts
+			(xy 210.82 111.76) (xy 210.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b4a745-0123-469e-98e0-c32e2835acd0")
 	)
 	(wire
 		(pts
@@ -3385,6 +4253,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 199.39) (xy 331.47 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435c8516-7139-4397-b6d5-86724eba2396")
+	)
+	(wire
+		(pts
 			(xy 215.9 63.5) (xy 254 63.5)
 		)
 		(stroke
@@ -3395,6 +4273,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 38.1) (xy 317.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4515fd79-6cfd-4409-bcd6-4da4da6b7c42")
+	)
+	(wire
+		(pts
 			(xy 266.7 114.3) (xy 279.4 114.3)
 		)
 		(stroke
@@ -3402,6 +4290,16 @@
 			(type default)
 		)
 		(uuid "45262061-a224-4d3e-a8c2-ee7dca807a4e")
+	)
+	(wire
+		(pts
+			(xy 398.78 104.14) (xy 387.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458d5b0f-5488-4f7f-b369-125fa66d9ae8")
 	)
 	(wire
 		(pts
@@ -3425,6 +4323,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 198.12) (xy 332.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a372ee-8893-42d6-8760-3f2f0de01d19")
+	)
+	(wire
+		(pts
 			(xy 88.9 29.21) (xy 88.9 30.48)
 		)
 		(stroke
@@ -3432,6 +4340,16 @@
 			(type default)
 		)
 		(uuid "49fa1cfb-b187-4b27-9102-c458970b0b25")
+	)
+	(wire
+		(pts
+			(xy 316.23 63.5) (xy 316.23 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bebba94-09d9-4e84-8a0c-c391de337bd3")
 	)
 	(wire
 		(pts
@@ -3465,6 +4383,26 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 101.6) (xy 316.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ddcc735-b76f-42e1-bf59-add931cac219")
+	)
+	(wire
+		(pts
+			(xy 200.66 238.76) (xy 405.13 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e41c4de-506a-4a10-89ce-bcca09524bf9")
+	)
+	(wire
+		(pts
 			(xy 104.14 124.46) (xy 104.14 130.81)
 		)
 		(stroke
@@ -3482,6 +4420,16 @@
 			(type default)
 		)
 		(uuid "4eff2a53-196b-4dcd-8bda-f765e97ab801")
+	)
+	(wire
+		(pts
+			(xy 205.74 181.61) (xy 205.74 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9dd02a-9e29-404a-b2a0-5a6593b5ca9f")
 	)
 	(wire
 		(pts
@@ -3535,6 +4483,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 156.21) (xy 78.74 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5277aad1-f950-42e9-974b-20176884c8de")
+	)
+	(wire
+		(pts
 			(xy 269.24 29.21) (xy 269.24 54.61)
 		)
 		(stroke
@@ -3552,6 +4510,16 @@
 			(type default)
 		)
 		(uuid "52974788-cf3e-48bf-801b-a15b6f1c95f0")
+	)
+	(wire
+		(pts
+			(xy 403.86 93.98) (xy 387.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52977d18-b0c6-449c-a9e5-397c5d8db661")
 	)
 	(wire
 		(pts
@@ -3665,6 +4633,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 203.2) (xy 327.66 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575fac94-2628-46f8-937f-773a3238151b")
+	)
+	(wire
+		(pts
 			(xy 165.1 130.81) (xy 165.1 132.08)
 		)
 		(stroke
@@ -3682,6 +4660,26 @@
 			(type default)
 		)
 		(uuid "577e93fe-e9ed-46f0-8aba-fa3cbf35630b")
+	)
+	(wire
+		(pts
+			(xy 398.78 232.41) (xy 398.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f0e548-2096-47e3-9c62-316f1592f201")
+	)
+	(wire
+		(pts
+			(xy 306.07 181.61) (xy 300.99 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59293606-1b03-4429-ba3e-7da63ada7f1f")
 	)
 	(wire
 		(pts
@@ -3705,7 +4703,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 114.3) (xy 201.93 114.3)
+			(xy 177.8 114.3) (xy 215.9 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3735,6 +4733,16 @@
 	)
 	(wire
 		(pts
+			(xy 397.51 231.14) (xy 397.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac0367f-4f4e-43ad-ba04-13b945f7ce20")
+	)
+	(wire
+		(pts
 			(xy 53.34 39.37) (xy 40.64 39.37)
 		)
 		(stroke
@@ -3742,6 +4750,16 @@
 			(type default)
 		)
 		(uuid "5b1c1ea0-2b3d-4e42-9984-5d8f74f50b43")
+	)
+	(wire
+		(pts
+			(xy 256.54 156.21) (xy 256.54 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c311bf7-033d-4dab-a21a-02b14618d23d")
 	)
 	(wire
 		(pts
@@ -3885,6 +4903,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 234.95) (xy 401.32 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628a2b90-2335-4965-b00f-c7c1b1961653")
+	)
+	(wire
+		(pts
 			(xy 38.1 139.7) (xy 63.5 139.7)
 		)
 		(stroke
@@ -3945,6 +4973,16 @@
 	)
 	(wire
 		(pts
+			(xy 405.13 238.76) (xy 405.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6630f7d3-8340-44b2-9336-4e3728075c3e")
+	)
+	(wire
+		(pts
 			(xy 194.31 40.64) (xy 194.31 52.07)
 		)
 		(stroke
@@ -3975,6 +5013,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 109.22) (xy 341.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6775106e-e16e-425f-b163-7aa7fa32ef89")
+	)
+	(wire
+		(pts
 			(xy 116.84 46.99) (xy 116.84 54.61)
 		)
 		(stroke
@@ -3995,6 +5043,26 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 194.31) (xy 320.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695027a7-3e08-4117-9331-40cc4b1cfdaf")
+	)
+	(wire
+		(pts
+			(xy 91.44 147.32) (xy 91.44 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8cd1d8-4d79-4d24-a4db-9844140ca0e4")
+	)
+	(wire
+		(pts
 			(xy 142.24 80.01) (xy 142.24 105.41)
 		)
 		(stroke
@@ -4005,6 +5073,16 @@
 	)
 	(wire
 		(pts
+			(xy 405.13 91.44) (xy 387.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d184267-cb62-45f5-b1a0-35532e042fbf")
+	)
+	(wire
+		(pts
 			(xy 139.7 54.61) (xy 139.7 55.88)
 		)
 		(stroke
@@ -4012,6 +5090,16 @@
 			(type default)
 		)
 		(uuid "6d39f329-cec6-443b-bf5f-9572c0c2c117")
+	)
+	(wire
+		(pts
+			(xy 180.34 240.03) (xy 406.4 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3ce609-3f41-4483-9225-fdebcbdb5064")
 	)
 	(wire
 		(pts
@@ -4045,6 +5133,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 199.39) (xy 331.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f22bcc9-688e-45cb-9b7a-e65b64f46002")
+	)
+	(wire
+		(pts
 			(xy 269.24 130.81) (xy 269.24 156.21)
 		)
 		(stroke
@@ -4052,6 +5150,16 @@
 			(type default)
 		)
 		(uuid "6f77377f-81bb-4f6c-be6f-4c562c0b112d")
+	)
+	(wire
+		(pts
+			(xy 308.61 172.72) (xy 308.61 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff9902c-de1c-457b-a6a7-ddebc2602b67")
 	)
 	(wire
 		(pts
@@ -4185,6 +5293,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 233.68) (xy 400.05 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772e4762-157f-4f9f-b65f-808333c147af")
+	)
+	(wire
+		(pts
 			(xy 190.5 165.1) (xy 193.04 165.1)
 		)
 		(stroke
@@ -4195,6 +5313,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 231.14) (xy 397.51 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f13c0a-00bf-461b-9889-b24659867096")
+	)
+	(wire
+		(pts
 			(xy 215.9 130.81) (xy 215.9 132.08)
 		)
 		(stroke
@@ -4202,6 +5330,36 @@
 			(type default)
 		)
 		(uuid "783667fe-bdd0-4a41-b8ce-a988233a23ed")
+	)
+	(wire
+		(pts
+			(xy 325.12 205.74) (xy 325.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7837cc49-61ef-4416-86a3-2273d173c726")
+	)
+	(wire
+		(pts
+			(xy 167.64 198.12) (xy 332.74 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78596a66-8fe8-47aa-88e7-651f129d72e8")
+	)
+	(wire
+		(pts
+			(xy 316.23 88.9) (xy 341.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79db8faa-2370-4e50-9161-5b2ff187b194")
 	)
 	(wire
 		(pts
@@ -4262,6 +5420,16 @@
 			(type default)
 		)
 		(uuid "7c4bf543-2602-44a8-b2a6-dcbd788baad6")
+	)
+	(wire
+		(pts
+			(xy 308.61 181.61) (xy 306.07 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf326ee-7f28-41ea-a489-e8879427ce99")
 	)
 	(wire
 		(pts
@@ -4335,6 +5503,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 121.92) (xy 341.63 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcf5ec4-67f7-483b-b7eb-5f1a4ad84425")
+	)
+	(wire
+		(pts
 			(xy 256.54 105.41) (xy 256.54 130.81)
 		)
 		(stroke
@@ -4352,16 +5530,6 @@
 			(type default)
 		)
 		(uuid "80a3d9e3-8999-4e08-a86d-cac8daefa86e")
-	)
-	(wire
-		(pts
-			(xy 205.74 114.3) (xy 215.9 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81a12dba-4bc6-4ea7-9edd-26584ea5209d")
 	)
 	(wire
 		(pts
@@ -4395,13 +5563,33 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 114.3) (xy 201.93 181.61)
+			(xy 402.59 96.52) (xy 387.35 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83ab539f-87cb-4b37-9172-ee5eb23cc9ab")
+		(uuid "832b10bb-c4fb-45c8-8a3f-966062afaf61")
+	)
+	(wire
+		(pts
+			(xy 279.4 165.1) (xy 283.21 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8346f3cc-debb-4089-85eb-03f81e1a351f")
+	)
+	(wire
+		(pts
+			(xy 257.81 233.68) (xy 400.05 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83de310c-b3e1-4652-a623-55394c966d25")
 	)
 	(wire
 		(pts
@@ -4432,6 +5620,16 @@
 			(type default)
 		)
 		(uuid "84b0ca0b-2813-4942-841c-7f7de84aa1d4")
+	)
+	(wire
+		(pts
+			(xy 321.31 209.55) (xy 321.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84da3c48-c950-4a2c-88c5-972431434a94")
 	)
 	(wire
 		(pts
@@ -4482,6 +5680,26 @@
 			(type default)
 		)
 		(uuid "870ace35-3639-499b-bc55-048011081d44")
+	)
+	(wire
+		(pts
+			(xy 129.54 130.81) (xy 129.54 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8778cb2a-d86a-4d8c-9f93-a65d68505290")
+	)
+	(wire
+		(pts
+			(xy 53.34 156.21) (xy 53.34 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b19763-c1a6-4dd7-8229-d9bcf9247658")
 	)
 	(wire
 		(pts
@@ -4555,6 +5773,26 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 149.86) (xy 287.02 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d34bc58-35b1-4ce9-a251-6db2e996b652")
+	)
+	(wire
+		(pts
+			(xy 289.56 181.61) (xy 289.56 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d763106-4c25-4750-baf9-da10a9e5f33d")
+	)
+	(wire
+		(pts
 			(xy 101.6 63.5) (xy 114.3 63.5)
 		)
 		(stroke
@@ -4592,6 +5830,16 @@
 			(type default)
 		)
 		(uuid "8f74fd0f-94b3-40cf-9390-76975e582513")
+	)
+	(wire
+		(pts
+			(xy 279.4 38.1) (xy 317.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f830c21-4533-4a95-9eaa-17cca7144416")
 	)
 	(wire
 		(pts
@@ -4655,6 +5903,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 91.44) (xy 341.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92006083-516d-40fe-8e3e-6689e9830f71")
+	)
+	(wire
+		(pts
 			(xy 129.54 45.72) (xy 104.14 45.72)
 		)
 		(stroke
@@ -4672,6 +5930,46 @@
 			(type default)
 		)
 		(uuid "92e78b30-e930-4e6b-88fe-9e55d2b9b295")
+	)
+	(wire
+		(pts
+			(xy 200.66 238.76) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93af5578-f97c-460d-9dce-99884cfa6818")
+	)
+	(wire
+		(pts
+			(xy 116.84 153.67) (xy 118.11 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94399a99-d4d9-4df5-9b09-a8dc1e3ea7f2")
+	)
+	(wire
+		(pts
+			(xy 154.94 156.21) (xy 154.94 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9582c538-9446-4d8d-953f-6d453b6a0497")
+	)
+	(wire
+		(pts
+			(xy 279.4 114.3) (xy 317.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f2103c-f399-4684-9aa8-59c05644b2a6")
 	)
 	(wire
 		(pts
@@ -4715,6 +6013,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 130.81) (xy 91.44 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b4f37d-a7c1-4b79-baf7-8a88729cd2dd")
+	)
+	(wire
+		(pts
 			(xy 205.74 116.84) (xy 205.74 130.81)
 		)
 		(stroke
@@ -4722,6 +6030,16 @@
 			(type default)
 		)
 		(uuid "98d42b31-d135-434b-9683-2235dfa6a30e")
+	)
+	(wire
+		(pts
+			(xy 269.24 232.41) (xy 398.78 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f02e5f-e954-4876-a5b1-8b62cd1815be")
 	)
 	(wire
 		(pts
@@ -4772,6 +6090,16 @@
 			(type default)
 		)
 		(uuid "9d367bca-f63f-422c-b100-6bf3c3dda423")
+	)
+	(wire
+		(pts
+			(xy 290.83 181.61) (xy 289.56 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3e4892-8aef-49c4-9e0b-6328d1cf1345")
 	)
 	(wire
 		(pts
@@ -4835,16 +6163,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 181.61) (xy 205.74 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd26134-fc52-4fe4-9805-4b1f261d296f")
-	)
-	(wire
-		(pts
 			(xy 116.84 17.78) (xy 116.84 29.21)
 		)
 		(stroke
@@ -4895,6 +6213,16 @@
 	)
 	(wire
 		(pts
+			(xy 401.32 99.06) (xy 387.35 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d752b3-25f3-45b1-9154-e7846a22ab2f")
+	)
+	(wire
+		(pts
 			(xy 243.84 105.41) (xy 243.84 130.81)
 		)
 		(stroke
@@ -4902,6 +6230,16 @@
 			(type default)
 		)
 		(uuid "a2d9bdcf-671c-49a2-a5fc-369ed6b9635f")
+	)
+	(wire
+		(pts
+			(xy 332.74 124.46) (xy 341.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34082a1-abcc-43af-94f2-1d74a6a913c5")
 	)
 	(wire
 		(pts
@@ -4985,6 +6323,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 203.2) (xy 327.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a638cb43-1403-460a-80a5-f0da7071bf5c")
+	)
+	(wire
+		(pts
 			(xy 218.44 29.21) (xy 218.44 41.91)
 		)
 		(stroke
@@ -4992,6 +6340,26 @@
 			(type default)
 		)
 		(uuid "a89e50d0-084e-4e23-8e92-ba223c89a87f")
+	)
+	(wire
+		(pts
+			(xy 231.14 181.61) (xy 231.14 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c5b385-0941-4d16-bb5d-898df132e5a8")
+	)
+	(wire
+		(pts
+			(xy 283.21 194.31) (xy 306.07 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ee394b-fb13-4bcd-8e44-648057aa9d4c")
 	)
 	(wire
 		(pts
@@ -5022,6 +6390,16 @@
 			(type default)
 		)
 		(uuid "aa8e8f15-b07d-4c1a-a787-8ceab2125dc9")
+	)
+	(wire
+		(pts
+			(xy 27.94 156.21) (xy 27.94 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba1cb32-edbf-4a97-966c-b1b199f847f2")
 	)
 	(wire
 		(pts
@@ -5065,6 +6443,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 201.93) (xy 328.93 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae863074-2108-43c5-9da6-0ea779cb0ba3")
+	)
+	(wire
+		(pts
 			(xy 241.3 181.61) (xy 241.3 182.88)
 		)
 		(stroke
@@ -5075,6 +6463,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 116.84) (xy 341.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af53d9a4-85de-4fe9-802d-7100073b044c")
+	)
+	(wire
+		(pts
 			(xy 269.24 54.61) (xy 269.24 80.01)
 		)
 		(stroke
@@ -5082,6 +6480,26 @@
 			(type default)
 		)
 		(uuid "af638e92-720e-4497-ba1d-6ac0f812a2ce")
+	)
+	(wire
+		(pts
+			(xy 364.49 224.79) (xy 364.49 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6a6cc3-5fa9-4926-bd72-6c7fe013a96a")
+	)
+	(wire
+		(pts
+			(xy 118.11 153.67) (xy 118.11 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07615d9-f7dd-4c3e-838e-9aefe6c3d3af")
 	)
 	(wire
 		(pts
@@ -5112,6 +6530,26 @@
 			(type default)
 		)
 		(uuid "b354299c-25da-48ef-a1b9-ac35fbb1bacf")
+	)
+	(wire
+		(pts
+			(xy 269.24 156.21) (xy 269.24 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b372bd23-e21a-424b-aac0-3c2229347369")
+	)
+	(wire
+		(pts
+			(xy 326.39 111.76) (xy 341.63 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b399ff7c-ab21-4523-9d94-b4f10704b7fa")
 	)
 	(wire
 		(pts
@@ -5165,6 +6603,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 184.15) (xy 280.67 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5232b02-7b26-4815-8371-d2810b996c02")
+	)
+	(wire
+		(pts
 			(xy 88.9 156.21) (xy 88.9 157.48)
 		)
 		(stroke
@@ -5205,6 +6653,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 201.93) (xy 328.93 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c926bb-cca0-4118-8470-3624cdcd6c98")
+	)
+	(wire
+		(pts
 			(xy 88.9 63.5) (xy 101.6 63.5)
 		)
 		(stroke
@@ -5225,6 +6683,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 236.22) (xy 402.59 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7423416-e405-4c62-9a9e-3fec87de6bd7")
+	)
+	(wire
+		(pts
 			(xy 114.3 114.3) (xy 127 114.3)
 		)
 		(stroke
@@ -5232,6 +6700,16 @@
 			(type default)
 		)
 		(uuid "b756ea84-0d28-4d38-a291-4c23ec47ac6d")
+	)
+	(wire
+		(pts
+			(xy 27.94 209.55) (xy 321.31 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77527b3-f7d9-4f0c-948f-c5e6583105ad")
 	)
 	(wire
 		(pts
@@ -5252,6 +6730,16 @@
 			(type default)
 		)
 		(uuid "b7dae556-25f3-43e4-86bb-412020df78bd")
+	)
+	(wire
+		(pts
+			(xy 210.82 170.18) (xy 205.74 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f29749-1a34-413c-887a-020f177e8fe1")
 	)
 	(wire
 		(pts
@@ -5325,6 +6813,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 208.28) (xy 322.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd50fbce-1e0d-4192-956c-ed5a5ded5210")
+	)
+	(wire
+		(pts
 			(xy 63.5 139.7) (xy 76.2 139.7)
 		)
 		(stroke
@@ -5395,6 +6893,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 119.38) (xy 341.63 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f909d8-34be-42c4-8e30-5fd6cca876b2")
+	)
+	(wire
+		(pts
 			(xy 127 156.21) (xy 127 157.48)
 		)
 		(stroke
@@ -5422,6 +6930,16 @@
 			(type default)
 		)
 		(uuid "c538c85e-f2ef-4303-a7be-65adca0738c8")
+	)
+	(wire
+		(pts
+			(xy 397.51 114.3) (xy 387.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d58c6a-1cb1-4675-94a5-82705d8da7a8")
 	)
 	(wire
 		(pts
@@ -5525,6 +7043,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 63.5) (xy 316.23 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a1b940-c3fd-4bbe-a7b1-8e9ceee5f5d3")
+	)
+	(wire
+		(pts
 			(xy 152.4 54.61) (xy 152.4 55.88)
 		)
 		(stroke
@@ -5615,6 +7143,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 200.66) (xy 330.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdab578-4f9f-4938-9b96-8bda8f888ac3")
+	)
+	(wire
+		(pts
 			(xy 91.44 105.41) (xy 91.44 124.46)
 		)
 		(stroke
@@ -5645,6 +7183,36 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 181.61) (xy 256.54 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8e02cc-87d0-411a-9af6-b32d72c5ac2a")
+	)
+	(wire
+		(pts
+			(xy 290.83 186.69) (xy 290.83 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd93f147-9ecb-4f1f-b275-3ab91356f6a6")
+	)
+	(wire
+		(pts
+			(xy 403.86 237.49) (xy 403.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda7a936-620a-4e8d-82b2-9d70fd591d10")
+	)
+	(wire
+		(pts
 			(xy 279.4 130.81) (xy 279.4 132.08)
 		)
 		(stroke
@@ -5652,6 +7220,46 @@
 			(type default)
 		)
 		(uuid "cf071ba8-c781-4a09-af0a-58a66dec375c")
+	)
+	(wire
+		(pts
+			(xy 318.77 152.4) (xy 318.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2d62f4-856f-4e85-9156-647276af2cb4")
+	)
+	(wire
+		(pts
+			(xy 306.07 194.31) (xy 320.04 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf71a4b0-3a71-4f22-99c5-a30480d01f5c")
+	)
+	(wire
+		(pts
+			(xy 400.05 101.6) (xy 387.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8f7626-9515-47c6-bc41-e88f5a83019e")
+	)
+	(wire
+		(pts
+			(xy 387.35 116.84) (xy 396.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf91817a-00a9-4705-b7f3-4d249fe04f4f")
 	)
 	(wire
 		(pts
@@ -5692,6 +7300,16 @@
 			(type default)
 		)
 		(uuid "d4854fce-f853-4a59-bf9a-4674440d1c07")
+	)
+	(wire
+		(pts
+			(xy 294.64 143.51) (xy 294.64 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b81c89-7a4c-4741-a0ed-a67ef3b73435")
 	)
 	(wire
 		(pts
@@ -5765,16 +7383,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 105.41) (xy 205.74 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7d4ce58-12bb-45a0-8eab-65ebf54cdc9c")
-	)
-	(wire
-		(pts
 			(xy 104.14 105.41) (xy 104.14 123.19)
 		)
 		(stroke
@@ -5802,6 +7410,16 @@
 			(type default)
 		)
 		(uuid "da351199-e782-4cba-836b-7f7061b44490")
+	)
+	(wire
+		(pts
+			(xy 91.44 205.74) (xy 325.12 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da387f5d-7e91-457c-b999-b05f436746c9")
 	)
 	(wire
 		(pts
@@ -5845,6 +7463,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 152.4) (xy 318.77 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd89aeed-9876-4cba-846b-015aa0ace354")
+	)
+	(wire
+		(pts
 			(xy 91.44 44.45) (xy 91.44 54.61)
 		)
 		(stroke
@@ -5852,6 +7480,16 @@
 			(type default)
 		)
 		(uuid "dddca9b7-6695-4e0e-b2e7-38d026124314")
+	)
+	(wire
+		(pts
+			(xy 321.31 101.6) (xy 341.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfcd509-e6cb-49d1-b89f-77a28d0fca1e")
 	)
 	(wire
 		(pts
@@ -5885,6 +7523,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 207.01) (xy 323.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b0747a-0051-4186-9000-7a59d4c8d6f9")
+	)
+	(wire
+		(pts
 			(xy 91.44 124.46) (xy 104.14 124.46)
 		)
 		(stroke
@@ -5915,6 +7563,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 149.86) (xy 287.02 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e149d459-5612-4c59-a9ff-88e73bc2a04e")
+	)
+	(wire
+		(pts
 			(xy 289.56 101.6) (xy 304.8 101.6)
 		)
 		(stroke
@@ -5932,6 +7590,16 @@
 			(type default)
 		)
 		(uuid "e1945b79-07ea-4dce-8b5d-4b6a0250e24b")
+	)
+	(wire
+		(pts
+			(xy 300.99 181.61) (xy 300.99 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2144630-874b-4b84-8610-60fb7297b361")
 	)
 	(wire
 		(pts
@@ -6005,6 +7673,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 208.28) (xy 322.58 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7cca2eb-3e0a-43ea-8e9a-ddf7a8e987dc")
+	)
+	(wire
+		(pts
 			(xy 248.92 165.1) (xy 248.92 139.7)
 		)
 		(stroke
@@ -6042,6 +7720,16 @@
 			(type default)
 		)
 		(uuid "e8f0b729-e0a9-4508-a3a8-b0c24d55b875")
+	)
+	(wire
+		(pts
+			(xy 406.4 88.9) (xy 387.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f0f8ec-72f7-41ca-a244-669cd6241e81")
 	)
 	(wire
 		(pts
@@ -6112,6 +7800,26 @@
 			(type default)
 		)
 		(uuid "ec07dd18-cfba-4ef5-93d3-ee94eddb109d")
+	)
+	(wire
+		(pts
+			(xy 318.77 96.52) (xy 341.63 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1bb86d-f17f-45e3-80b9-039d4d884ce3")
+	)
+	(wire
+		(pts
+			(xy 287.02 172.72) (xy 308.61 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec369bee-66fb-4e70-a65d-4bafe8b7c49f")
 	)
 	(wire
 		(pts
@@ -6215,6 +7923,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 101.6) (xy 316.23 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38f85a9-786b-4284-a473-14908b052143")
+	)
+	(wire
+		(pts
 			(xy 66.04 54.61) (xy 66.04 80.01)
 		)
 		(stroke
@@ -6225,6 +7943,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 229.87) (xy 396.24 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f689326c-2775-4096-be29-bba1a97b3c97")
+	)
+	(wire
+		(pts
 			(xy 294.64 92.71) (xy 294.64 143.51)
 		)
 		(stroke
@@ -6232,6 +7960,16 @@
 			(type default)
 		)
 		(uuid "f7c2855a-3137-4a43-8891-fc3e665b91f9")
+	)
+	(wire
+		(pts
+			(xy 401.32 234.95) (xy 401.32 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9073a4f-ac4b-4fee-982c-6e9af99d0e56")
 	)
 	(wire
 		(pts
@@ -6275,6 +8013,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 99.06) (xy 341.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb300519-bcb6-4f37-be17-857426cf9529")
+	)
+	(wire
+		(pts
 			(xy 180.34 53.34) (xy 180.34 54.61)
 		)
 		(stroke
@@ -6282,6 +8030,16 @@
 			(type default)
 		)
 		(uuid "fb384c5f-f861-4289-8d85-23f78f9f22a4")
+	)
+	(wire
+		(pts
+			(xy 93.98 146.05) (xy 93.98 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6f7312-feff-483f-b373-df5f4b176a13")
 	)
 	(wire
 		(pts
@@ -6322,6 +8080,16 @@
 			(type default)
 		)
 		(uuid "fd07abb3-a6d9-4159-8c8d-4d60eec76a5c")
+	)
+	(wire
+		(pts
+			(xy 326.39 204.47) (xy 326.39 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd30a3e2-c4a5-45d7-bde8-ac28840e9b98")
 	)
 	(wire
 		(pts
@@ -6373,6 +8141,16 @@
 		)
 		(uuid "063bdba8-e2a2-4f07-a23c-66be1166e951")
 	)
+	(label "ROT0"
+		(at 392.43 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1702445b-ebc0-49aa-b115-3e96cad5af61")
+	)
 	(label "COL17"
 		(at 294.64 43.18 0)
 		(effects
@@ -6383,6 +8161,16 @@
 		)
 		(uuid "1cdae3b1-f23d-4426-9252-3e5bb6b1322d")
 	)
+	(label "COL17"
+		(at 392.43 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f4a54a4-7c76-4dec-afbb-561047e96b27")
+	)
 	(label "COL2"
 		(at 66.04 17.78 0)
 		(effects
@@ -6392,6 +8180,16 @@
 			(justify left bottom)
 		)
 		(uuid "2891afd0-2e2b-48c7-b66d-723db812b1a9")
+	)
+	(label "COL10"
+		(at 392.43 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f71c1e9-4a08-4904-ad21-7a501843da2a")
 	)
 	(label "COL3"
 		(at 78.74 17.78 0)
@@ -6412,6 +8210,26 @@
 			(justify left bottom)
 		)
 		(uuid "35a69b77-da1e-4e28-9b44-148c2888cf44")
+	)
+	(label "COL14"
+		(at 392.43 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37e8a14a-21f8-4ade-9f7b-e4237dc4057e")
+	)
+	(label "COL2"
+		(at 332.74 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39753c34-48d9-4c91-a1d0-2e8606814fde")
 	)
 	(label "COL4"
 		(at 91.44 17.78 0)
@@ -6453,6 +8271,16 @@
 		)
 		(uuid "5145acbe-3092-4340-b796-8bf9840937e6")
 	)
+	(label "COL1"
+		(at 332.74 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "541c90df-4f36-4cef-bf91-34826d354d44")
+	)
 	(label "Fn Row"
 		(at 12.7 38.1 0)
 		(effects
@@ -6462,6 +8290,16 @@
 			(justify left bottom)
 		)
 		(uuid "57680c73-a98f-4984-ba45-6b662c8a3c0c")
+	)
+	(label "COL4"
+		(at 332.74 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "604611b8-f49b-4849-b04b-283fce7d0d05")
 	)
 	(label "COL5"
 		(at 116.84 17.78 0)
@@ -6493,6 +8331,16 @@
 		)
 		(uuid "62df4823-f60a-49f6-8a28-c2923bad7177")
 	)
+	(label "COL15"
+		(at 392.43 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68e0e7cd-905d-40dd-813b-a48be34326f1")
+	)
 	(label "Row 2"
 		(at 332.74 91.44 0)
 		(effects
@@ -6502,6 +8350,26 @@
 			(justify left bottom)
 		)
 		(uuid "6a8ba760-329e-477c-bb62-1b629940b4e2")
+	)
+	(label "COL16"
+		(at 392.43 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f123495-2a9d-40fb-a84c-c53eab98484f")
+	)
+	(label "COL3"
+		(at 332.74 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f8cb43b-2d4b-4c42-9574-71d11700190a")
 	)
 	(label "Row 4"
 		(at 12.7 139.7 0)
@@ -6522,6 +8390,16 @@
 			(justify left bottom)
 		)
 		(uuid "7befcddb-e57f-4741-a912-e96d577e180e")
+	)
+	(label "COL9"
+		(at 332.74 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cfc1531-746e-48c7-bd7e-5d9c143fdf7a")
 	)
 	(label "COL12"
 		(at 218.44 17.78 0)
@@ -6553,6 +8431,26 @@
 		)
 		(uuid "8fdd3576-2ff7-4a61-8b38-c9e408511292")
 	)
+	(label "COL5"
+		(at 332.74 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "921fe6e9-5342-45b3-b8f0-42c0130c171d")
+	)
+	(label "COL11"
+		(at 392.43 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97b0dfa4-0b71-432a-b8fb-d620927e2c6e")
+	)
 	(label "COL10"
 		(at 193.04 17.78 0)
 		(effects
@@ -6563,6 +8461,26 @@
 		)
 		(uuid "a9cc528b-8d14-4977-b11b-e4a1dd054522")
 	)
+	(label "COL13"
+		(at 392.43 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3391def-174c-46b5-8200-b4970774d926")
+	)
+	(label "COL12"
+		(at 392.43 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbf9b26f-ae17-4fd0-b878-8afdb06aa839")
+	)
 	(label "Row 2"
 		(at 12.7 88.9 0)
 		(effects
@@ -6572,6 +8490,16 @@
 			(justify left bottom)
 		)
 		(uuid "bc689567-da61-4976-a5f0-baff01f66153")
+	)
+	(label "COL8"
+		(at 332.74 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf2933b1-c8b7-47db-a54e-e9408eabfa7d")
 	)
 	(label "COL0"
 		(at 27.94 17.78 0)
@@ -6613,6 +8541,16 @@
 		)
 		(uuid "ca91e91d-594c-46cd-b8c5-d8dcd02d3db6")
 	)
+	(label "COL0"
+		(at 332.74 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e130e5a8-5e1e-4195-b46c-bd4f6ac94cf0")
+	)
 	(label "Row 1"
 		(at 332.74 88.9 0)
 		(effects
@@ -6653,6 +8591,26 @@
 		)
 		(uuid "ef929f14-c53e-4c01-94ad-23ee58c2a229")
 	)
+	(label "COL7"
+		(at 332.74 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f616429b-4eac-4e54-bbb5-958cde118fe8")
+	)
+	(label "COL6"
+		(at 332.74 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbde1aaf-0671-410a-ad02-96d7f81b1c8e")
+	)
 	(label "Row 4"
 		(at 332.74 96.52 0)
 		(effects
@@ -6675,7 +8633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "000ee447-08ff-4efe-b402-4f5829b50ea1")
-		(property "Reference" "SW44"
+		(property "Reference" "SW43"
 			(at 134.62 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6695,7 +8653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 134.62 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6737,7 +8695,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW44")
+					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -6755,7 +8713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "011d76cd-3a08-4ab0-a116-dd30602ba8fd")
-		(property "Reference" "SW34"
+		(property "Reference" "SW33"
 			(at 274.32 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6775,7 +8733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 274.32 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6817,7 +8775,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW34")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -6855,7 +8813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 96.52 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -6914,7 +8872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02c26f42-f889-48af-80e9-b85991b1dfa2")
-		(property "Reference" "D48"
+		(property "Reference" "D47"
 			(at 193.294 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6936,7 +8894,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 190.5 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7000,7 +8958,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D48")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -7018,7 +8976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02c3af83-558b-4477-a914-5da8d2d5d375")
-		(property "Reference" "SW89"
+		(property "Reference" "SW88"
 			(at 121.92 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7038,7 +8996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 121.92 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7080,7 +9038,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW89")
+					(reference "SW88")
 					(unit 1)
 				)
 			)
@@ -7098,7 +9056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e26e5e-23f4-407f-8e0e-ba9856792e9a")
-		(property "Reference" "SW31"
+		(property "Reference" "SW30"
 			(at 210.82 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,7 +9076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 210.82 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7160,7 +9118,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW31")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -7177,7 +9135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "059149a8-55ff-4612-870e-abd62ef615da")
-		(property "Reference" "D40"
+		(property "Reference" "D39"
 			(at 91.694 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7199,7 +9157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 88.9 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7263,7 +9221,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D40")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -7281,7 +9239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "077a61eb-dc12-4dca-9eab-37624da0b5ec")
-		(property "Reference" "SW40"
+		(property "Reference" "SW39"
 			(at 83.82 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7301,7 +9259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7343,7 +9301,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW40")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -7360,7 +9318,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07f59719-25be-443e-b57d-a075a0c4c780")
-		(property "Reference" "D92"
+		(property "Reference" "D91"
 			(at 193.294 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7382,7 +9340,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 190.5 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7446,7 +9404,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D92")
+					(reference "D91")
 					(unit 1)
 				)
 			)
@@ -7463,7 +9421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "085311f2-1124-4f60-8098-40a0bfa1eb00")
-		(property "Reference" "D79"
+		(property "Reference" "D78"
 			(at 167.894 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7485,7 +9443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 165.1 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7549,7 +9507,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D79")
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -7588,7 +9546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 38.1 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7669,7 +9627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a53b327-ea3b-43ab-9748-8ddd7cb8f013")
-		(property "Reference" "D36"
+		(property "Reference" "D35"
 			(at 40.894 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7691,7 +9649,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7755,7 +9713,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D36")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -7773,7 +9731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a56516e-818f-4dd1-a2dd-3364b544b2f0")
-		(property "Reference" "SW60"
+		(property "Reference" "SW59"
 			(at 109.22 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7793,7 +9751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 109.22 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7835,7 +9793,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW60")
+					(reference "SW59")
 					(unit 1)
 				)
 			)
@@ -7852,7 +9810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c603e13-66a4-4e3e-b768-b54c9096bf4c")
-		(property "Reference" "D22"
+		(property "Reference" "D21"
 			(at 91.694 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7874,7 +9832,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 88.9 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7938,7 +9896,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D22")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -7955,7 +9913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e0d2268-d649-48eb-9f45-50ffc34a8a19")
-		(property "Reference" "D49"
+		(property "Reference" "D48"
 			(at 218.694 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7977,7 +9935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8041,7 +9999,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D49")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -8058,7 +10016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "106d85b4-b1fe-4a83-91a0-62231af13976")
-		(property "Reference" "D74"
+		(property "Reference" "D73"
 			(at 104.394 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8080,7 +10038,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 101.6 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8144,7 +10102,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D74")
+					(reference "D73")
 					(unit 1)
 				)
 			)
@@ -8161,7 +10119,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "112f49d5-4cdb-4612-a7ce-bc6644067f0e")
-		(property "Reference" "D91"
+		(property "Reference" "D90"
 			(at 180.594 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8183,7 +10141,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8247,7 +10205,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D91")
+					(reference "D90")
 					(unit 1)
 				)
 			)
@@ -8264,7 +10222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11a85178-7642-4524-baea-3e587c4678c8")
-		(property "Reference" "D72"
+		(property "Reference" "D71"
 			(at 78.994 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8286,7 +10244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8350,7 +10308,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D72")
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -8388,7 +10346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 274.32 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8447,7 +10405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "143d4051-fd6b-41e8-88e1-56d0b65d5b9f")
-		(property "Reference" "D98"
+		(property "Reference" "D97"
 			(at 269.494 184.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8469,7 +10427,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8533,7 +10491,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D98")
+					(reference "D97")
 					(unit 1)
 				)
 			)
@@ -8550,7 +10508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18c2cd92-ec89-4291-abe7-53743cc96ed3")
-		(property "Reference" "D21"
+		(property "Reference" "D20"
 			(at 78.994 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8572,7 +10530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8636,83 +10594,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 198.12 58.42 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19291da3-a69d-48a2-b13f-ffd11a6f4a04")
-		(property "Reference" "S7"
-			(at 201.93 57.1499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 201.93 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 198.12 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 198.12 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vBoard"
-				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S7")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -8730,7 +10612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ec93b44-85b2-4228-b6e2-a3f6f91ec85f")
-		(property "Reference" "SW80"
+		(property "Reference" "SW79"
 			(at 172.72 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8750,7 +10632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 172.72 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8792,7 +10674,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW80")
+					(reference "SW79")
 					(unit 1)
 				)
 			)
@@ -8809,7 +10691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21a502f8-66ad-4e9c-8658-5d236fe64192")
-		(property "Reference" "D95"
+		(property "Reference" "D94"
 			(at 282.194 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8831,7 +10713,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8895,7 +10777,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D95")
+					(reference "D94")
 					(unit 1)
 				)
 			)
@@ -8913,7 +10795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22372051-373b-4fac-8303-f6b29ea15421")
-		(property "Reference" "SW30"
+		(property "Reference" "SW29"
 			(at 185.42 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8933,7 +10815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 185.42 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8975,7 +10857,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW30")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -8992,7 +10874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22ce1a2d-2f38-4f99-9d72-cbc2739c20cd")
-		(property "Reference" "D28"
+		(property "Reference" "D27"
 			(at 167.894 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9014,7 +10896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 165.1 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9078,7 +10960,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D28")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -9096,7 +10978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23b543e6-4bb8-43ad-a240-f0c3ab1907b9")
-		(property "Reference" "SW92"
+		(property "Reference" "SW91"
 			(at 185.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9116,7 +10998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 185.42 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9158,7 +11040,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW92")
+					(reference "SW91")
 					(unit 1)
 				)
 			)
@@ -9175,7 +11057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25b4e0ed-6e24-4d68-8965-a8876a399cf1")
-		(property "Reference" "D24"
+		(property "Reference" "D23"
 			(at 117.094 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9197,7 +11079,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 114.3 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9261,7 +11143,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D24")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -9278,7 +11160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26ab1b7c-8cb8-4ee0-9c54-43769acd25e7")
-		(property "Reference" "D65"
+		(property "Reference" "D64"
 			(at 180.594 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9300,7 +11182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9364,7 +11246,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D65")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -9382,7 +11264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2826e955-2ae3-4b3b-bea1-6b7d8dfa07c3")
-		(property "Reference" "SW43"
+		(property "Reference" "SW42"
 			(at 121.92 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9402,7 +11284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 121.92 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9444,7 +11326,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW43")
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -9462,7 +11344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "284542f9-3d98-4189-aca9-0657a92ace35")
-		(property "Reference" "SW21"
+		(property "Reference" "SW20"
 			(at 71.12 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9482,7 +11364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 71.12 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9524,7 +11406,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW21")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -9562,7 +11444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 198.12 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -9622,7 +11504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a00f145-31d2-43be-847e-61e4deb29def")
-		(property "Reference" "SW25"
+		(property "Reference" "SW24"
 			(at 121.92 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9642,7 +11524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 121.92 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9684,7 +11566,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW25")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -9702,7 +11584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aa28b94-9e5f-4c32-bca5-47b6fd8da8c1")
-		(property "Reference" "SW63"
+		(property "Reference" "SW62"
 			(at 147.32 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9722,7 +11604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 147.32 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9764,7 +11646,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW63")
+					(reference "SW62")
 					(unit 1)
 				)
 			)
@@ -9782,7 +11664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b65e33e-0184-4545-af74-6312f88d0490")
-		(property "Reference" "SW85"
+		(property "Reference" "SW84"
 			(at 299.72 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9802,7 +11684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 299.72 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9844,7 +11726,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW85")
+					(reference "SW84")
 					(unit 1)
 				)
 			)
@@ -9884,7 +11766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 190.5 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9965,7 +11847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ed77cf9-7d96-4298-9caa-5da5edaef3a5")
-		(property "Reference" "D89"
+		(property "Reference" "D88"
 			(at 129.794 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9987,7 +11869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -10051,7 +11933,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D89")
+					(reference "D88")
 					(unit 1)
 				)
 			)
@@ -10089,7 +11971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -10169,7 +12051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 147.32 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -10229,7 +12111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "358dd7d3-b1be-4c28-b283-5cf20dd2ede6")
-		(property "Reference" "SW68"
+		(property "Reference" "SW67"
 			(at 261.62 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10249,7 +12131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 261.62 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10291,7 +12173,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW68")
+					(reference "SW67")
 					(unit 1)
 				)
 			)
@@ -10308,7 +12190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39250527-c1d9-440d-80a2-435c459c0553")
-		(property "Reference" "D55"
+		(property "Reference" "D54"
 			(at 53.594 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10330,7 +12212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 50.8 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10394,7 +12276,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D55")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -10412,7 +12294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aaed895-698b-4347-a8dd-472e653c2291")
-		(property "Reference" "SW61"
+		(property "Reference" "SW60"
 			(at 121.92 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10432,7 +12314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 121.92 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10474,83 +12356,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 299.72 157.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cb97e36-161e-43f9-8c62-1d7d70c1f8f0")
-		(property "Reference" "S12"
-			(at 306.07 156.3369 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 306.07 158.8769 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 299.72 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 299.72 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vBoard"
-				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S12")
+					(reference "SW60")
 					(unit 1)
 				)
 			)
@@ -10568,7 +12374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d17c843-0c1f-40de-9829-ad63a832da2b")
-		(property "Reference" "SW23"
+		(property "Reference" "SW22"
 			(at 96.52 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10588,7 +12394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 96.52 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10630,7 +12436,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW23")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -10647,7 +12453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d36c553-a335-478e-a372-eb643e8087e3")
-		(property "Reference" "D29"
+		(property "Reference" "D28"
 			(at 180.594 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10669,7 +12475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10733,7 +12539,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D29")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -10750,7 +12556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e49cda2-a964-412e-870c-b39394e7ba06")
-		(property "Reference" "D35"
+		(property "Reference" "D34"
 			(at 307.594 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10772,7 +12578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 304.8 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10836,7 +12642,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D35")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -10854,7 +12660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a2ae42-f165-4fcd-9def-7d98ce35b522")
-		(property "Reference" "SW39"
+		(property "Reference" "SW38"
 			(at 71.12 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10874,7 +12680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 71.12 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10916,83 +12722,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 299.72 129.54 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41c5dbd5-5cfa-47fa-81d9-9cca089edf99")
-		(property "Reference" "S11"
-			(at 306.07 128.3969 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 306.07 130.9369 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 299.72 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 299.72 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vBoard"
-				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S11")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -11010,7 +12740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "436a4596-f840-4b52-b887-5f07b82d3885")
-		(property "Reference" "SW98"
+		(property "Reference" "SW97"
 			(at 261.62 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11030,7 +12760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 261.62 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11072,7 +12802,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW98")
+					(reference "SW97")
 					(unit 1)
 				)
 			)
@@ -11089,7 +12819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43f409a0-85aa-4bd9-9b67-39e0059b7ef8")
-		(property "Reference" "D25"
+		(property "Reference" "D24"
 			(at 129.794 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11111,7 +12841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11175,7 +12905,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D25")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -11192,7 +12922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44ababfe-335d-4774-bd30-95bcf1eef1b3")
-		(property "Reference" "D67"
+		(property "Reference" "D66"
 			(at 256.794 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11214,7 +12944,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11278,7 +13008,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D67")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -11296,7 +13026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4868f1ac-2420-468f-8de4-8c5b9a1216d6")
-		(property "Reference" "SW96"
+		(property "Reference" "SW95"
 			(at 210.82 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11316,7 +13046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 210.82 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11358,7 +13088,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW96")
+					(reference "SW95")
 					(unit 1)
 				)
 			)
@@ -11376,7 +13106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49499e76-b3f8-46fb-844c-d9777975b2ed")
-		(property "Reference" "SW38"
+		(property "Reference" "SW37"
 			(at 58.42 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11396,7 +13126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11438,83 +13168,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 232.41 58.42 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49b96848-16ff-4cb7-9aa1-625e5a5e1bc2")
-		(property "Reference" "S8"
-			(at 236.22 57.1499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 236.22 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 232.41 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 232.41 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vBoard"
-				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S8")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -11532,7 +13186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ab9ac81-9e54-45ed-b312-71d2dc53e945")
-		(property "Reference" "SW81"
+		(property "Reference" "SW80"
 			(at 210.82 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11552,7 +13206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 210.82 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11594,7 +13248,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW81")
+					(reference "SW80")
 					(unit 1)
 				)
 			)
@@ -11632,7 +13286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 185.42 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11691,7 +13345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d004a66-70b7-4a36-89c5-39032df737c5")
-		(property "Reference" "D77"
+		(property "Reference" "D76"
 			(at 142.494 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11713,7 +13367,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 139.7 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11777,83 +13431,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 232.41 109.22 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f48cbf1-c3f6-41e4-99cb-35d1c4c14f31")
-		(property "Reference" "S6"
-			(at 236.22 107.9499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 236.22 110.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 232.41 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 232.41 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vBoard"
-				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S6")
+					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -11871,7 +13449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f90d8ac-1796-4343-98ec-fab151e6eb9e")
-		(property "Reference" "SW73"
+		(property "Reference" "SW72"
 			(at 83.82 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11891,7 +13469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11933,7 +13511,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW73")
+					(reference "SW72")
 					(unit 1)
 				)
 			)
@@ -11973,7 +13551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -12054,7 +13632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5637dede-b0b8-437f-87a7-da4b941fd227")
-		(property "Reference" "D43"
+		(property "Reference" "D42"
 			(at 129.794 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12076,7 +13654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12140,7 +13718,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D43")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -12158,7 +13736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56b3597f-de60-4ee3-81b1-38ee5048fa92")
-		(property "Reference" "SW91"
+		(property "Reference" "SW90"
 			(at 172.72 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12178,7 +13756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 172.72 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -12220,7 +13798,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW91")
+					(reference "SW90")
 					(unit 1)
 				)
 			)
@@ -12237,7 +13815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5728196e-73ab-4306-98d8-376aedb3f033")
-		(property "Reference" "D60"
+		(property "Reference" "D59"
 			(at 117.094 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12259,7 +13837,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 114.3 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12323,7 +13901,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D60")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -12361,7 +13939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 160.02 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12421,7 +13999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a91818-930b-402d-9fda-1ee3268b99ec")
-		(property "Reference" "SW86"
+		(property "Reference" "SW85"
 			(at 33.02 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12441,7 +14019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 33.02 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -12483,7 +14061,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW86")
+					(reference "SW85")
 					(unit 1)
 				)
 			)
@@ -12501,7 +14079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59c34606-26fe-4951-ae8b-864abed8f818")
-		(property "Reference" "SW87"
+		(property "Reference" "SW86"
 			(at 58.42 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12521,7 +14099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 58.42 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -12563,7 +14141,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW87")
+					(reference "SW86")
 					(unit 1)
 				)
 			)
@@ -12580,7 +14158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a10b872-8ea4-4807-b3f5-2eb5e68cec11")
-		(property "Reference" "D47"
+		(property "Reference" "D46"
 			(at 180.594 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12602,7 +14180,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12666,7 +14244,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D47")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -12683,7 +14261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b3f1041-ea70-4f5a-8592-8b1c091eeb5a")
-		(property "Reference" "D52"
+		(property "Reference" "D51"
 			(at 282.194 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12705,7 +14283,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12769,7 +14347,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D52")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -12809,7 +14387,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 254 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -12890,7 +14468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cd2d756-4f51-4e40-849c-87d1e874083f")
-		(property "Reference" "D64"
+		(property "Reference" "D63"
 			(at 167.894 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12912,7 +14490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 165.1 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12976,7 +14554,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D64")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -12993,7 +14571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d93a527-6c33-435b-b1c5-656bb955769f")
-		(property "Reference" "D46"
+		(property "Reference" "D45"
 			(at 167.894 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13015,7 +14593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13079,7 +14657,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D46")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -13097,7 +14675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ee752b1-76b9-4ec1-96c3-ca2ea5f8aaec")
-		(property "Reference" "SW57"
+		(property "Reference" "SW56"
 			(at 71.12 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13117,7 +14695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 71.12 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13159,7 +14737,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW57")
+					(reference "SW56")
 					(unit 1)
 				)
 			)
@@ -13176,7 +14754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6003af60-c8c1-4a32-a215-84b65fbcce66")
-		(property "Reference" "D63"
+		(property "Reference" "D62"
 			(at 155.194 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13198,7 +14776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 152.4 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13262,83 +14840,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 106.68 160.02 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63f25195-5274-4640-8d11-a754b375644d")
-		(property "Reference" "S3"
-			(at 110.49 158.7499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 110.49 161.2899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 106.68 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 106.68 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vBoard"
-				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S3")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -13356,7 +14858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "650f5fbe-67bb-4e7d-a8b2-73759631cb53")
-		(property "Reference" "SW48"
+		(property "Reference" "SW47"
 			(at 185.42 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13376,7 +14878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 185.42 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13418,7 +14920,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW48")
+					(reference "SW47")
 					(unit 1)
 				)
 			)
@@ -13436,7 +14938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6591d40c-7c6f-4583-b899-e7e5d65f774b")
-		(property "Reference" "SW37"
+		(property "Reference" "SW36"
 			(at 45.72 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13456,7 +14958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 45.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13498,7 +15000,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW37")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -13515,7 +15017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65d89a5c-9e9a-4b52-a481-c97ae63f68c5")
-		(property "Reference" "D30"
+		(property "Reference" "D29"
 			(at 193.294 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13537,7 +15039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 190.5 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13601,7 +15103,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D30")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -13618,7 +15120,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6685226b-bce3-41f2-8abb-9c42bf7a9b49")
-		(property "Reference" "D78"
+		(property "Reference" "D77"
 			(at 155.194 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13640,7 +15142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 152.4 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -13704,7 +15206,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D78")
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -13721,7 +15223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68ee2737-2335-4568-8f29-d486baa16f2f")
-		(property "Reference" "D27"
+		(property "Reference" "D26"
 			(at 155.194 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13743,7 +15245,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 152.4 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13807,7 +15309,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D27")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -13825,7 +15327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69bea2eb-5e42-4a64-bf43-22667e24beca")
-		(property "Reference" "SW95"
+		(property "Reference" "SW94"
 			(at 274.32 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13845,7 +15347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 274.32 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -13887,7 +15389,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW95")
+					(reference "SW94")
 					(unit 1)
 				)
 			)
@@ -13904,7 +15406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69f4ef57-987a-4b69-95b1-9fa5c009e34a")
-		(property "Reference" "SW71"
+		(property "Reference" "SW70"
 			(at 58.42 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13924,7 +15426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 58.42 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13966,7 +15468,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW71")
+					(reference "SW70")
 					(unit 1)
 				)
 			)
@@ -13983,7 +15485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a60145c-e960-422e-a6be-7de511212aff")
-		(property "Reference" "D69"
+		(property "Reference" "D68"
 			(at 282.194 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14005,7 +15507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -14069,7 +15571,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D69")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -14087,7 +15589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bbf6169-6393-48bc-9565-7c6a4bdefedb")
-		(property "Reference" "SW49"
+		(property "Reference" "SW48"
 			(at 210.82 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14107,7 +15609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 210.82 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -14149,7 +15651,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW49")
+					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -14167,7 +15669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ca5d92c-e22c-405a-9fef-fc267f62c869")
-		(property "Reference" "SW47"
+		(property "Reference" "SW46"
 			(at 172.72 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14187,7 +15689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 172.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -14229,7 +15731,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW47")
+					(reference "SW46")
 					(unit 1)
 				)
 			)
@@ -14246,7 +15748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ebec5a9-7ca3-4b94-8759-ca56f5156eb4")
-		(property "Reference" "D82"
+		(property "Reference" "D81"
 			(at 256.794 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14268,7 +15770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 254 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -14332,7 +15834,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D82")
+					(reference "D81")
 					(unit 1)
 				)
 			)
@@ -14350,7 +15852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ef5f881-b518-4da7-b0b3-1258a2292c39")
-		(property "Reference" "SW90"
+		(property "Reference" "SW89"
 			(at 160.02 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14370,7 +15872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 160.02 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14412,7 +15914,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW90")
+					(reference "SW89")
 					(unit 1)
 				)
 			)
@@ -14430,7 +15932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f6578cf-15af-493b-8a0d-b88fff1236fc")
-		(property "Reference" "SW20"
+		(property "Reference" "SW19"
 			(at 58.42 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14450,7 +15952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 58.42 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14492,7 +15994,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW20")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -14510,7 +16012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7099e174-7d27-419d-b578-c17eaee1dc50")
-		(property "Reference" "SW55"
+		(property "Reference" "SW54"
 			(at 45.72 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14530,7 +16032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 45.72 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14572,7 +16074,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW55")
+					(reference "SW54")
 					(unit 1)
 				)
 			)
@@ -14589,7 +16091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7142f062-362c-4d88-ac89-c3b27325ba10")
-		(property "Reference" "D71"
+		(property "Reference" "D70"
 			(at 66.294 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14611,7 +16113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 63.5 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -14675,7 +16177,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D71")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -14693,7 +16195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71654dd3-d3fd-4505-9ff6-a824c89d0f6f")
-		(property "Reference" "SW22"
+		(property "Reference" "SW21"
 			(at 83.82 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14713,7 +16215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14755,7 +16257,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW22")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -14773,7 +16275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75db4ba5-d8ca-4771-a184-86f04b105d2d")
-		(property "Reference" "SW78"
+		(property "Reference" "SW77"
 			(at 147.32 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14793,7 +16295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 147.32 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14835,7 +16337,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW78")
+					(reference "SW77")
 					(unit 1)
 				)
 			)
@@ -14853,7 +16355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "761f56b3-db7a-46bd-97ea-c924921fb46e")
-		(property "Reference" "SW64"
+		(property "Reference" "SW63"
 			(at 160.02 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14873,7 +16375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 160.02 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14915,7 +16417,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW64")
+					(reference "SW63")
 					(unit 1)
 				)
 			)
@@ -14933,7 +16435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7779c294-cf28-40a7-ac7d-fbdbfd428cf9")
-		(property "Reference" "SW19"
+		(property "Reference" "SW18"
 			(at 45.72 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14953,7 +16455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 45.72 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14995,7 +16497,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW19")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -15012,7 +16514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77cd46a5-3fc4-4577-847f-e349432251da")
-		(property "Reference" "D54"
+		(property "Reference" "D53"
 			(at 40.894 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15034,7 +16536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 38.1 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15098,7 +16600,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D54")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -15115,7 +16617,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "781bdbdc-1a83-4789-bd06-82490ae09e69")
-		(property "Reference" "D26"
+		(property "Reference" "D25"
 			(at 142.494 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15137,7 +16639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 139.7 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15201,7 +16703,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D26")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -15219,7 +16721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78c5a966-892a-481b-99b4-94fa389b4e12")
-		(property "Reference" "SW24"
+		(property "Reference" "SW23"
 			(at 109.22 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15239,7 +16741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 109.22 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15281,7 +16783,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW24")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -15298,7 +16800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78def628-efcf-470e-bd9f-088499a5b8b5")
-		(property "Reference" "D34"
+		(property "Reference" "D33"
 			(at 282.194 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15320,7 +16822,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15384,7 +16886,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D34")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -15402,7 +16904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a2e2f0b-9c06-404f-8e51-9f537f738b3e")
-		(property "Reference" "SW56"
+		(property "Reference" "SW55"
 			(at 58.42 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15422,7 +16924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 58.42 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15464,7 +16966,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW56")
+					(reference "SW55")
 					(unit 1)
 				)
 			)
@@ -15502,7 +17004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 134.62 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15584,7 +17086,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 203.2 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15655,82 +17157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 299.72 106.68 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7afeb5a3-782d-4628-8dc4-3c48a52245c3")
-		(property "Reference" "S10"
-			(at 306.07 105.5369 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 306.07 108.0769 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 299.72 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 299.72 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vBoard"
-				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 121.92 29.21 0)
 		(unit 1)
@@ -15762,7 +17188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 121.92 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15844,7 +17270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
 			(at 364.49 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -16018,7 +17444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e581fff-6e8e-4ded-b4ea-ebe105de3409")
-		(property "Reference" "SW70"
+		(property "Reference" "SW69"
 			(at 33.02 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16038,7 +17464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 33.02 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16080,7 +17506,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW70")
+					(reference "SW69")
 					(unit 1)
 				)
 			)
@@ -16120,7 +17546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 165.1 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16201,7 +17627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ffe23ba-2217-438e-b8de-ba5041d30590")
-		(property "Reference" "D66"
+		(property "Reference" "D65"
 			(at 218.694 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16223,7 +17649,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16287,7 +17713,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D66")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -16305,7 +17731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80b294fd-faaf-4227-b608-28940df5d582")
-		(property "Reference" "SW84"
+		(property "Reference" "SW83"
 			(at 274.32 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16325,7 +17751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 274.32 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16367,7 +17793,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW84")
+					(reference "SW83")
 					(unit 1)
 				)
 			)
@@ -16385,7 +17811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81125e7a-b21f-4e4a-a6f8-6b3bce5af396")
-		(property "Reference" "SW72"
+		(property "Reference" "SW71"
 			(at 71.12 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16405,7 +17831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 71.12 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16447,7 +17873,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW72")
+					(reference "SW71")
 					(unit 1)
 				)
 			)
@@ -16487,7 +17913,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 101.6 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16558,82 +17984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 19.05 134.62 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85ce5452-bf7c-468e-8c14-49576d79d94e")
-		(property "Reference" "S1"
-			(at 22.86 133.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 22.86 135.8899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 19.05 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 19.05 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vBoard"
-				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 248.92 29.21 0)
 		(unit 1)
@@ -16665,7 +18015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 248.92 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -16724,7 +18074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8da29d5c-6e21-45b4-b17f-16e41242b8cf")
-		(property "Reference" "D70"
+		(property "Reference" "D69"
 			(at 40.894 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16746,7 +18096,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 38.1 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -16810,7 +18160,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D70")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -16827,7 +18177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f55e728-3c8a-40d8-97d2-732386c92cb3")
-		(property "Reference" "D84"
+		(property "Reference" "D83"
 			(at 282.194 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16849,7 +18199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -16913,7 +18263,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D84")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -16931,7 +18281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9126b41c-27ba-4f36-a71d-94c70e75dd73")
-		(property "Reference" "SW54"
+		(property "Reference" "SW53"
 			(at 33.02 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16951,7 +18301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 33.02 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -16993,7 +18343,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW54")
+					(reference "SW53")
 					(unit 1)
 				)
 			)
@@ -17010,7 +18360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91438c5c-fb91-47fb-b9d2-b28dde51216d")
-		(property "Reference" "D96"
+		(property "Reference" "D95"
 			(at 218.694 184.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17032,7 +18382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -17096,7 +18446,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D96")
+					(reference "D95")
 					(unit 1)
 				)
 			)
@@ -17114,7 +18464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92b02265-0e17-46c1-ad50-b88a291bdf87")
-		(property "Reference" "SW27"
+		(property "Reference" "SW26"
 			(at 147.32 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17134,7 +18484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 147.32 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -17176,7 +18526,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW27")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -17194,7 +18544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9596f2f7-14b1-4946-8bd8-9d4d5b1cdea8")
-		(property "Reference" "SW58"
+		(property "Reference" "SW57"
 			(at 83.82 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17214,7 +18564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17256,7 +18606,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW58")
+					(reference "SW57")
 					(unit 1)
 				)
 			)
@@ -17296,7 +18646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 63.5 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -17378,7 +18728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95b5f97e-845f-414c-9580-2e8d7f092879")
-		(property "Reference" "SW33"
+		(property "Reference" "SW32"
 			(at 261.62 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17398,7 +18748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 261.62 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -17440,7 +18790,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW33")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -17457,7 +18807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "977dfd17-7be5-4773-9bf9-1f7b3dd9c541")
-		(property "Reference" "D59"
+		(property "Reference" "D58"
 			(at 104.394 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17479,7 +18829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 101.6 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -17543,7 +18893,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D59")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -17560,7 +18910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "992eecc3-bea1-4c5f-9d40-9ee3543095f4")
-		(property "Reference" "D87"
+		(property "Reference" "D86"
 			(at 66.294 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17582,7 +18932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 63.5 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17646,7 +18996,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D87")
+					(reference "D86")
 					(unit 1)
 				)
 			)
@@ -17663,7 +19013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99979cb0-f172-4abc-b12f-94c2f73611d5")
-		(property "Reference" "D61"
+		(property "Reference" "D60"
 			(at 129.794 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17685,7 +19035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -17749,7 +19099,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D61")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -17767,7 +19117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a989f98-a1a7-4117-8eca-2f08bdef822a")
-		(property "Reference" "SW45"
+		(property "Reference" "SW44"
 			(at 147.32 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17787,7 +19137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 147.32 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -17829,7 +19179,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW45")
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -17847,7 +19197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d056c62-434a-43cc-9ca9-b35a3a89e0de")
-		(property "Reference" "SW82"
+		(property "Reference" "SW81"
 			(at 248.92 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17867,7 +19217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 248.92 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -17909,7 +19259,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW82")
+					(reference "SW81")
 					(unit 1)
 				)
 			)
@@ -17926,7 +19276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d7d53a6-1090-4449-87cd-82976ea8f79f")
-		(property "Reference" "D75"
+		(property "Reference" "D74"
 			(at 117.094 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17948,7 +19298,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -18012,7 +19362,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D75")
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -18029,7 +19379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1ef8348-4ca8-4f6f-bc43-fcd0f287bc65")
-		(property "Reference" "D86"
+		(property "Reference" "D85"
 			(at 40.894 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18051,7 +19401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 38.1 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18115,7 +19465,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D86")
+					(reference "D85")
 					(unit 1)
 				)
 			)
@@ -18133,7 +19483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a239f0c8-291e-4789-b8c6-a1964bfda38b")
-		(property "Reference" "SW79"
+		(property "Reference" "SW78"
 			(at 160.02 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18153,7 +19503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 160.02 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -18195,83 +19545,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 146.05 160.02 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a244727e-4778-496d-972a-5ee9bb9786c7")
-		(property "Reference" "S4"
-			(at 149.86 158.7499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 149.86 161.2899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 146.05 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 146.05 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vBoard"
-				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S4")
+					(reference "SW78")
 					(unit 1)
 				)
 			)
@@ -18311,7 +19585,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 152.4 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -18392,7 +19666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3d738ef-e4c2-46e4-b9b0-7d886f41acfe")
-		(property "Reference" "D18"
+		(property "Reference" "D17"
 			(at 40.894 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18414,7 +19688,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 38.1 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18478,7 +19752,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D18")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -18496,7 +19770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a43e3bea-2323-45e1-b42a-48a484ad6a3c")
-		(property "Reference" "SW66"
+		(property "Reference" "SW65"
 			(at 210.82 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18516,7 +19790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 210.82 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -18558,7 +19832,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW66")
+					(reference "SW65")
 					(unit 1)
 				)
 			)
@@ -18576,7 +19850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7bf57af-6853-4e24-b807-f477641ddc56")
-		(property "Reference" "SW42"
+		(property "Reference" "SW41"
 			(at 109.22 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18596,7 +19870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 109.22 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -18638,7 +19912,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW42")
+					(reference "SW41")
 					(unit 1)
 				)
 			)
@@ -18655,7 +19929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a84c6578-4bd3-4e48-8c2a-16a754417ae2")
-		(property "Reference" "D93"
+		(property "Reference" "D92"
 			(at 244.094 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18677,7 +19951,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18741,7 +20015,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D93")
+					(reference "D92")
 					(unit 1)
 				)
 			)
@@ -18759,7 +20033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8dbd3df-3038-47ce-a1d4-a550a2eed6f6")
-		(property "Reference" "SW28"
+		(property "Reference" "SW27"
 			(at 160.02 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18779,7 +20053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 160.02 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -18821,7 +20095,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW28")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -18839,7 +20113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa5c69e5-f108-4e31-9e3c-df0615134197")
-		(property "Reference" "SW53"
+		(property "Reference" "SW52"
 			(at 299.72 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18859,7 +20133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 299.72 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -18901,7 +20175,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW53")
+					(reference "SW52")
 					(unit 1)
 				)
 			)
@@ -18918,7 +20192,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aaab421b-8268-475e-9f46-38c32dcaf9cc")
-		(property "Reference" "D76"
+		(property "Reference" "D75"
 			(at 129.794 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18940,7 +20214,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -19004,7 +20278,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D76")
+					(reference "D75")
 					(unit 1)
 				)
 			)
@@ -19022,7 +20296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab384572-a7bd-4326-b87c-3d6b9439dd35")
-		(property "Reference" "SW35"
+		(property "Reference" "SW34"
 			(at 299.72 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19042,7 +20316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 299.72 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -19084,7 +20358,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW35")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -19102,7 +20376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abf57e99-a351-47cb-92a6-b3975b894a28")
-		(property "Reference" "SW51"
+		(property "Reference" "SW50"
 			(at 261.62 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19122,7 +20396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 261.62 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -19164,83 +20438,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 299.72 78.74 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad6c02c0-77f8-48e5-b804-e9c8adaf57d5")
-		(property "Reference" "S9"
-			(at 306.07 77.5969 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 306.07 80.1369 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 299.72 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 299.72 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vBoard"
-				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S9")
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -19258,7 +20456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d366c6-62a8-4ebd-9ecd-a586fa380694")
-		(property "Reference" "SW76"
+		(property "Reference" "SW75"
 			(at 121.92 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19278,7 +20476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 121.92 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -19320,7 +20518,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW76")
+					(reference "SW75")
 					(unit 1)
 				)
 			)
@@ -19360,7 +20558,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -19462,7 +20660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 58.42 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -19544,7 +20742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -19626,7 +20824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3f9558e-9e1e-452c-baa0-cf0dd23164df")
-		(property "Reference" "SW74"
+		(property "Reference" "SW73"
 			(at 96.52 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19646,7 +20844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 96.52 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -19688,7 +20886,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW74")
+					(reference "SW73")
 					(unit 1)
 				)
 			)
@@ -19726,7 +20924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 71.12 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -19808,7 +21006,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 88.9 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -19912,7 +21110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 139.7 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -19994,7 +21192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b72f6ba5-2b96-46de-8910-75c662552696")
-		(property "Reference" "SW46"
+		(property "Reference" "SW45"
 			(at 160.02 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20014,7 +21212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 160.02 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -20056,7 +21254,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW46")
+					(reference "SW45")
 					(unit 1)
 				)
 			)
@@ -20073,7 +21271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b81792ad-7196-49ac-8c4d-83f17deb3a48")
-		(property "Reference" "D20"
+		(property "Reference" "D19"
 			(at 66.294 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20095,7 +21293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 63.5 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20159,7 +21357,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D20")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -20177,7 +21375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b89d3bbf-58fa-454d-8a67-aca64691eba4")
-		(property "Reference" "SW77"
+		(property "Reference" "SW76"
 			(at 134.62 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20197,7 +21395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 134.62 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -20239,7 +21437,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW77")
+					(reference "SW76")
 					(unit 1)
 				)
 			)
@@ -20256,7 +21454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcba8045-2f38-4974-8cb4-a164e0fc8d82")
-		(property "Reference" "D32"
+		(property "Reference" "D31"
 			(at 256.794 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20278,7 +21476,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 254 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20342,7 +21540,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D32")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -20360,7 +21558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bddf146e-d9a6-4bbb-b907-d87d5e1d3b60")
-		(property "Reference" "SW93"
+		(property "Reference" "SW92"
 			(at 236.22 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20380,7 +21578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 236.22 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -20422,7 +21620,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW93")
+					(reference "SW92")
 					(unit 1)
 				)
 			)
@@ -20440,7 +21638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3026117-826a-4bbd-9bb7-1d0c8bea779c")
-		(property "Reference" "SW83"
+		(property "Reference" "SW82"
 			(at 261.62 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20460,7 +21658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 261.62 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -20502,7 +21700,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW83")
+					(reference "SW82")
 					(unit 1)
 				)
 			)
@@ -20520,7 +21718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c361ac67-c289-4a0d-b125-dfa5febfdb27")
-		(property "Reference" "SW50"
+		(property "Reference" "SW49"
 			(at 248.92 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20540,7 +21738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 248.92 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -20582,7 +21780,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW50")
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -20599,7 +21797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c37c957f-4074-49bc-a6d4-3b02788eea9c")
-		(property "Reference" "D58"
+		(property "Reference" "D57"
 			(at 91.694 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20621,7 +21819,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -20685,7 +21883,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D58")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -20703,7 +21901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3950ccb-11b6-4a70-bfcb-4aa2382aa484")
-		(property "Reference" "SW62"
+		(property "Reference" "SW61"
 			(at 134.62 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20723,7 +21921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 134.62 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -20765,83 +21963,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_marbastlib-mx:MX_stab")
-		(at 196.85 109.22 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c42a9026-9f6b-4696-94e6-f2383bf31655")
-		(property "Reference" "S5"
-			(at 200.66 107.9499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MX_stab"
-			(at 200.66 110.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 196.85 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 196.85 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "vBoard"
-				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S5")
+					(reference "SW61")
 					(unit 1)
 				)
 			)
@@ -20859,7 +21981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4fd405d-6867-4c08-9926-918e32836335")
-		(property "Reference" "SW52"
+		(property "Reference" "SW51"
 			(at 274.32 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20879,7 +22001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 274.32 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -20921,7 +22043,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW52")
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -20939,7 +22061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6092aaf-aced-4e39-bbfc-954c98673295")
-		(property "Reference" "SW36"
+		(property "Reference" "SW35"
 			(at 33.02 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20959,7 +22081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 33.02 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -21001,7 +22123,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW36")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -21018,7 +22140,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c747b33a-a365-4e6e-954b-10474eb835e1")
-		(property "Reference" "D90"
+		(property "Reference" "D89"
 			(at 167.894 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21040,7 +22162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 165.1 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -21104,7 +22226,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D90")
+					(reference "D89")
 					(unit 1)
 				)
 			)
@@ -21121,7 +22243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8022119-b9bb-4eff-a239-85ea8bba8366")
-		(property "Reference" "D56"
+		(property "Reference" "D55"
 			(at 66.294 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21143,7 +22265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -21207,7 +22329,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D56")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -21224,7 +22346,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccbf73ac-5f1d-43ca-8ffd-0e1b1f1dd6c5")
-		(property "Reference" "D31"
+		(property "Reference" "D30"
 			(at 218.694 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21246,7 +22368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21310,7 +22432,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D31")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -21327,7 +22449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd4e856b-6438-4e11-b002-1c66f20bfe3d")
-		(property "Reference" "D57"
+		(property "Reference" "D56"
 			(at 78.994 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21349,7 +22471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -21413,7 +22535,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D57")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -21453,7 +22575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -21534,7 +22656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce72b6ef-6989-4283-b90a-14acf2c0ecb1")
-		(property "Reference" "D19"
+		(property "Reference" "D18"
 			(at 53.594 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21556,7 +22678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 50.8 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21620,7 +22742,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D19")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -21637,7 +22759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf69c89d-bb56-402e-a86c-5d8633874646")
-		(property "Reference" "D97"
+		(property "Reference" "D96"
 			(at 244.094 184.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21659,7 +22781,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -21723,7 +22845,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D97")
+					(reference "D96")
 					(unit 1)
 				)
 			)
@@ -21740,7 +22862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf8cea3f-c939-4e53-9420-656983e28ae1")
-		(property "Reference" "D42"
+		(property "Reference" "D41"
 			(at 117.094 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21762,7 +22884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 114.3 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -21826,7 +22948,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D42")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -21843,7 +22965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1f1d87c-77ca-43f9-88c8-ee998c30bfcb")
-		(property "Reference" "D62"
+		(property "Reference" "D61"
 			(at 142.494 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21865,7 +22987,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 139.7 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -21929,7 +23051,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D62")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -21946,7 +23068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d394a925-542a-44fd-b17d-216c246f8559")
-		(property "Reference" "D73"
+		(property "Reference" "D72"
 			(at 91.694 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21968,7 +23090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 88.9 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -22032,7 +23154,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D73")
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -22050,7 +23172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5e232e9-b9e1-4dcc-9824-abee00e83003")
-		(property "Reference" "SW59"
+		(property "Reference" "SW58"
 			(at 96.52 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22070,7 +23192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 96.52 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -22112,7 +23234,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW59")
+					(reference "SW58")
 					(unit 1)
 				)
 			)
@@ -22129,7 +23251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8d5feab-c2bf-431d-a7c5-1509f12d8a9b")
-		(property "Reference" "D23"
+		(property "Reference" "D22"
 			(at 104.394 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22151,7 +23273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 101.6 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -22215,7 +23337,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D23")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -22232,7 +23354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8d7c85d-daa1-40c1-aaaa-f2d1f571f546")
-		(property "Reference" "D37"
+		(property "Reference" "D36"
 			(at 53.594 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22254,7 +23376,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 50.8 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -22318,7 +23440,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D37")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -22335,7 +23457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9b8505c-da8f-4054-aea9-df39ed6ec156")
-		(property "Reference" "D39"
+		(property "Reference" "D38"
 			(at 78.994 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22357,7 +23479,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 76.2 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -22421,7 +23543,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D39")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -22439,7 +23561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db1ecaaa-7788-44ba-8427-4750a1f04c6e")
-		(property "Reference" "SW97"
+		(property "Reference" "SW96"
 			(at 236.22 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22459,7 +23581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 236.22 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -22501,7 +23623,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW97")
+					(reference "SW96")
 					(unit 1)
 				)
 			)
@@ -22518,7 +23640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db9d9cc3-937d-495e-bfeb-e679aa968665")
-		(property "Reference" "D51"
+		(property "Reference" "D50"
 			(at 269.494 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22540,7 +23662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -22604,7 +23726,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D51")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -22621,7 +23743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc3b4fa0-274f-4c0a-8a38-4911f5ba1937")
-		(property "Reference" "D85"
+		(property "Reference" "D84"
 			(at 307.594 146.812 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22643,7 +23765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 304.8 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -22707,7 +23829,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D85")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -22724,7 +23846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd44c321-0c4f-45f6-aeba-7ab31a7665fa")
-		(property "Reference" "D81"
+		(property "Reference" "D80"
 			(at 218.694 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22746,7 +23868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 215.9 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -22810,7 +23932,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D81")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -22827,7 +23949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dda95aff-589d-4304-998e-47274eb96bf5")
-		(property "Reference" "D33"
+		(property "Reference" "D32"
 			(at 269.494 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22849,7 +23971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -22913,7 +24035,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D33")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -22930,7 +24052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1490c15-3d10-4bdf-a6d7-2dd750689c6c")
-		(property "Reference" "D53"
+		(property "Reference" "D52"
 			(at 307.594 96.012 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22952,7 +24074,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 304.8 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -23016,7 +24138,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D53")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -23034,7 +24156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1dcb360-9d55-4463-8425-fcc8aadff3ab")
-		(property "Reference" "SW69"
+		(property "Reference" "SW68"
 			(at 274.32 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23054,7 +24176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 274.32 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -23096,7 +24218,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW69")
+					(reference "SW68")
 					(unit 1)
 				)
 			)
@@ -23113,7 +24235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e22aef5a-cbae-4515-9d56-2dd76517a98a")
-		(property "Reference" "D68"
+		(property "Reference" "D67"
 			(at 269.494 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23135,7 +24257,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -23199,7 +24321,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D68")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -23217,7 +24339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5e619a2-1e2b-4ff4-982b-8436030a3250")
-		(property "Reference" "SW32"
+		(property "Reference" "SW31"
 			(at 248.92 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23237,7 +24359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 248.92 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -23279,7 +24401,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW32")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -23297,7 +24419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6df18a3-df09-4f36-b5a2-6ecbce396986")
-		(property "Reference" "SW67"
+		(property "Reference" "SW66"
 			(at 248.92 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23317,7 +24439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 248.92 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -23359,7 +24481,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW67")
+					(reference "SW66")
 					(unit 1)
 				)
 			)
@@ -23376,7 +24498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7ee6244-6d52-4b5b-99ed-d1d19fa7ea49")
-		(property "Reference" "D41"
+		(property "Reference" "D40"
 			(at 104.394 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23398,7 +24520,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 101.6 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -23462,7 +24584,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D41")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -23479,7 +24601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb5ad926-e03d-4f4d-bb15-92506d892e03")
-		(property "Reference" "D88"
+		(property "Reference" "D87"
 			(at 91.694 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23501,7 +24623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 88.9 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -23565,7 +24687,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D88")
+					(reference "D87")
 					(unit 1)
 				)
 			)
@@ -23583,7 +24705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb991411-ed51-4ffb-b253-b903d02eb1e6")
-		(property "Reference" "SW26"
+		(property "Reference" "SW25"
 			(at 134.62 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23603,7 +24725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 134.62 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -23645,7 +24767,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW26")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -23663,7 +24785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec8a0cd7-16ef-4d61-92e4-12d579559777")
-		(property "Reference" "SW94"
+		(property "Reference" "SW93"
 			(at 261.62 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23683,7 +24805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 261.62 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -23725,7 +24847,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW94")
+					(reference "SW93")
 					(unit 1)
 				)
 			)
@@ -23763,7 +24885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 223.52 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -23823,7 +24945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eca54c5e-86a6-471c-9c1f-7e7302c93e6e")
-		(property "Reference" "SW29"
+		(property "Reference" "SW28"
 			(at 172.72 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23843,7 +24965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 172.72 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -23885,7 +25007,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW29")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -23923,7 +25045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 210.82 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -23982,7 +25104,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f06acb6f-7596-4010-a6ea-47c9a244ed90")
-		(property "Reference" "D45"
+		(property "Reference" "D44"
 			(at 155.194 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24004,7 +25126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 152.4 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -24068,7 +25190,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D45")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -24106,7 +25228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 261.62 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -24166,7 +25288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f17f0020-ba01-4089-871f-71b48c42697f")
-		(property "Reference" "S2"
+		(property "Reference" "S9"
 			(at 55.88 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24188,7 +25310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
+		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_2u"
 			(at 52.07 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -24224,7 +25346,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "S2")
+					(reference "S9")
 					(unit 1)
 				)
 			)
@@ -24242,7 +25364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f29bb972-edbe-4d13-9ffa-ec20a3890969")
-		(property "Reference" "SW65"
+		(property "Reference" "SW64"
 			(at 172.72 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24262,7 +25384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 172.72 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -24304,7 +25426,111 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW65")
+					(reference "SW64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 306.07 190.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f32ff2a9-91df-48a1-98c5-cc1f91c3451f")
+		(property "Reference" "D98"
+			(at 308.61 189.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 308.61 191.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 306.07 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 306.07 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 306.07 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 306.07 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 306.07 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "244a3636-70af-46f0-b74d-2ff939928ace")
+		)
+		(pin "1"
+			(uuid "30a486da-887f-403e-8b76-7ef4d8dd917f")
+		)
+		(instances
+			(project "vBoard"
+				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
+					(reference "D98")
 					(unit 1)
 				)
 			)
@@ -24322,7 +25548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f35904dc-29c9-4fd8-bf00-f353d26bc071")
-		(property "Reference" "SW18"
+		(property "Reference" "SW17"
 			(at 33.02 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24342,7 +25568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 33.02 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -24384,7 +25610,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW18")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -24424,7 +25650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -24505,7 +25731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4ef20d1-78e7-4790-8bf5-53f83e6f065e")
-		(property "Reference" "D38"
+		(property "Reference" "D37"
 			(at 66.294 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24527,7 +25753,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 63.5 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -24591,7 +25817,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D38")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -24631,7 +25857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -24712,7 +25938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5214994-a01b-4780-8e2e-50b48d4d526e")
-		(property "Reference" "D83"
+		(property "Reference" "D82"
 			(at 269.494 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24734,7 +25960,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -24798,7 +26024,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D83")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -24816,7 +26042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f600ab1a-607c-4bcf-954a-407b09c697b7")
-		(property "Reference" "SW41"
+		(property "Reference" "SW40"
 			(at 96.52 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24836,7 +26062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 96.52 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -24878,7 +26104,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW41")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -24895,7 +26121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f65a6d2c-a9b3-408f-bd47-d95515d16651")
-		(property "Reference" "D94"
+		(property "Reference" "D93"
 			(at 269.494 159.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24917,7 +26143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 266.7 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -24981,7 +26207,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D94")
+					(reference "D93")
 					(unit 1)
 				)
 			)
@@ -24998,7 +26224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6675cef-a056-4816-88ef-a1f727f86f2f")
-		(property "Reference" "D80"
+		(property "Reference" "D79"
 			(at 180.594 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25020,7 +26246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -25084,7 +26310,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D80")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -25102,7 +26328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7ffdfa6-cf9a-4d07-847a-4fe178550c87")
-		(property "Reference" "SW75"
+		(property "Reference" "SW74"
 			(at 109.22 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25122,7 +26348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 109.22 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -25164,7 +26390,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW75")
+					(reference "SW74")
 					(unit 1)
 				)
 			)
@@ -25182,7 +26408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f819783c-45eb-4366-98f6-0b8fd596a5d9")
-		(property "Reference" "SW88"
+		(property "Reference" "SW87"
 			(at 83.82 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25202,7 +26428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 83.82 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -25244,7 +26470,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "SW88")
+					(reference "SW87")
 					(unit 1)
 				)
 			)
@@ -25261,7 +26487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9eaa7f3-8800-4e80-81a0-af679ff74365")
-		(property "Reference" "D44"
+		(property "Reference" "D43"
 			(at 142.494 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25283,7 +26509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -25347,7 +26573,96 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D44")
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 298.45 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb2da8ae-cc89-4a9e-95a9-fb8e9f48ac76")
+		(property "Reference" "SW98"
+			(at 298.45 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 298.45 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+			(at 294.64 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 298.45 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "8eda00ba-fd0c-48d8-8dc7-f3b57aa4e710")
+		)
+		(pin "S1"
+			(uuid "44285bb8-048d-4b88-b090-337685537cfe")
+		)
+		(pin "C"
+			(uuid "41d8225e-f7a8-4a99-8397-b9eef3f9cd9e")
+		)
+		(pin "B"
+			(uuid "f456e612-9f13-4978-8e9d-b72702867d2c")
+		)
+		(pin "S2"
+			(uuid "7c2c6d2d-7abe-4135-a999-12687c7500f0")
+		)
+		(instances
+			(project "vBoard"
+				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
+					(reference "SW98")
 					(unit 1)
 				)
 			)
@@ -25385,7 +26700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 			(at 33.02 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -25444,7 +26759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd65790f-4fe6-462c-820a-1addefd63386")
-		(property "Reference" "D50"
+		(property "Reference" "D49"
 			(at 256.794 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25466,7 +26781,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 254 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -25530,7 +26845,7 @@
 		(instances
 			(project "vBoard"
 				(path "/600d3fff-8dcf-4374-a4a0-84d668d9822d"
-					(reference "D50")
+					(reference "D49")
 					(unit 1)
 				)
 			)

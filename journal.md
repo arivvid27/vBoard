@@ -199,3 +199,21 @@ Oh my gosh kicad is hard.
 ![Before Schem](image.png)
 
 ~1.5 hr
+
+
+## Sept 22 - More KiCad
+I'm getting beat by trying to route my pcb.
+![Finished placing](image-7.png)
+![Red Routing v1](image-8.png)
+
+Update at 11:52 PM:
+I can not route for the love of me.
+I will try to extend me edge.cut out a bit more to
+allow for more room for my paths.
+
+~8 hr
+
+I think i'm hitting my goal by a long shot
+pretty soon
+
+new goal: 45 hours
