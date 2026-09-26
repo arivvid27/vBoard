@@ -217,3 +217,11 @@ I think i'm hitting my goal by a long shot
 pretty soon
 
 new goal: 45 hours
+
+## Sept 25 - Even More KiCad
+I managed to get my B.Cu paths going. Mainly my diodes.
+![Horizontal Rows](image-9.png)
+This requires a sort of visualization and strategy that I never thought
+i would require.
+
+~2.5 hr
