@@ -225,3 +225,18 @@ This requires a sort of visualization and strategy that I never thought
 i would require.
 
 ~2.5 hr
+
+## Sept 27 (PT1) - Finishing up KiCad (Finally)
+I got my routings to work. With some googling, I found that I can sent
+one track through multiple layers. Knowing that would have been useful a
+couple days ago...
+![Finished Routing](image-10.png)
+
+Some more googling also led me to try out a copper pour to ground my
+entire keyboard. Drew a zone, did some stuff, and kaboom. The entire
+thing is good to go. I just have to run a quick design check.
+![Copper Pour](image-11.png)
+
+~3 hr
+
+## Sept 27 (PT2) - Starting my CAD and (hopefully) finishg it 
