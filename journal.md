@@ -237,6 +237,15 @@ entire keyboard. Drew a zone, did some stuff, and kaboom. The entire
 thing is good to go. I just have to run a quick design check.
 ![Copper Pour](image-11.png)
 
-~3 hr
+Update:
+Got some errors, am gonna fix.
+![Got a few DRC Errors](image-12.png)
+![Some more Errors](image-13.png)
+
+Update:
+Fixed Errors. Ready to export.
+![Final and Done](image-14.png)
+
+~4 hr
 
 ## Sept 27 (PT2) - Starting my CAD and (hopefully) finishg it 

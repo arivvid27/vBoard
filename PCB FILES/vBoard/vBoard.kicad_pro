@@ -70,7 +70,12 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|401946800|193142500|F.Cu|4|a228880d-a378-4db4-9a90-d586ca15f056|029e9312-f5c8-41f5-8326-3d2b40f75042",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -518,7 +523,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/Row 5"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
