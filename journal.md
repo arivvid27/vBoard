@@ -271,4 +271,8 @@ I got my actual PCB file as a .step and now I am working on putting in
 all the parts digitally so I can design my case around it.
 ![Stabs and Switches](image-18.png)
 
-~1 hr
+I finished my Cad model, after making each layer :3
+![Top](image-19.png)
+![Entire](image-20.png)
+
+~8 hr
