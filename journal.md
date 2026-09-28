@@ -275,4 +275,7 @@ I finished my Cad model, after making each layer :3
 ![Top](image-19.png)
 ![Entire](image-20.png)
 
+For my own sake, here are my Pinouts
+![Pinout](image-21.png)
+
 ~8 hr
