@@ -246,10 +246,15 @@ Update:
 Fixed Errors. Ready to export.
 ![Final and Done](image-14.png)
 
-~4 hr
-
 Extra:
 PCB Order :3
 ![Ordered the PCB in White](image-15.png)
 
-## Sept 27 (PT2) - Starting my CAD and (hopefully) finishg it 
+
+Update:
+I messed up. I put my hotswaps in F.Cu. Im gonna work on it more now :[
+
+~5 hr
+
+## Sept 27 (PT2) - Starting my CAD and (hopefully) finishg it
+postponed

@@ -536,7 +536,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../CAD FILES/vBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
