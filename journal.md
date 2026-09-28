@@ -248,4 +248,8 @@ Fixed Errors. Ready to export.
 
 ~4 hr
 
+Extra:
+PCB Order :3
+![Ordered the PCB in White](image-15.png)
+
 ## Sept 27 (PT2) - Starting my CAD and (hopefully) finishg it 
