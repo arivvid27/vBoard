@@ -357,12 +357,6 @@
 		)
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -759,12 +753,6 @@
 		(path "/fb2da8ae-cc89-4a9e-95a9-fb8e9f48ac76")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A" "C" "B" "S1" "S2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1503,12 +1491,6 @@
 		)
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1913,12 +1895,6 @@
 		(path "/8ecb3916-a15c-4d8c-b9ff-9a21b4311ee2")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -2124,12 +2100,6 @@
 		)
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2629,12 +2599,6 @@
 		)
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3148,12 +3112,6 @@
 		(path "/dca93eaf-de92-48a9-96ff-2a29ab2e5bc4")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -3475,15 +3433,6 @@
 		(path "/7dc7f6bf-716d-4870-8530-94bb68235187")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "30" "37" "1" "2" "4" "5" "6" "7" "9" "10" "11" "12" "14" "15"
-					"16" "17" "19" "20" "39" "40" "3" "23" "28" "18" "13" "38" "8" "36"
-					"21" "22" "24" "25" "26" "27" "29" "35" "31" "32" "34" "33"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5036,12 +4985,6 @@
 		(path "/6ca5d92c-e22c-405a-9fef-fc267f62c869")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5675,12 +5618,6 @@
 		(path "/dda95aff-589d-4304-998e-47274eb96bf5")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5966,12 +5903,6 @@
 		(path "/03e26e5e-23f4-407f-8e0e-ba9856792e9a")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6573,12 +6504,6 @@
 		(path "/ab384572-a7bd-4326-b87c-3d6b9439dd35")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7212,12 +7137,6 @@
 		(path "/44ababfe-335d-4774-bd30-95bcf1eef1b3")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7535,12 +7454,6 @@
 		(path "/d394a925-542a-44fd-b17d-216c246f8559")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7826,12 +7739,6 @@
 		(path "/22372051-373b-4fac-8303-f6b29ea15421")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8433,12 +8340,6 @@
 		(path "/a8dbd3df-3038-47ce-a1d4-a550a2eed6f6")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9040,12 +8941,6 @@
 		(path "/c361ac67-c289-4a0d-b125-dfa5febfdb27")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9679,12 +9574,6 @@
 		(path "/5d93a527-6c33-435b-b1c5-656bb955769f")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9970,12 +9859,6 @@
 		(path "/78c5a966-892a-481b-99b4-94fa389b4e12")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10577,12 +10460,6 @@
 		(path "/7a2e2f0b-9c06-404f-8e51-9f537f738b3e")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11184,12 +11061,6 @@
 		(path "/4c43ce5f-c01a-4ad1-8d5f-23a9bfc63200")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11791,12 +11662,6 @@
 		(path "/8b1e9f82-e1bc-4a26-bb56-3ebb1d171fda")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12398,12 +12263,6 @@
 		(path "/75db4ba5-d8ca-4771-a184-86f04b105d2d")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13037,12 +12896,6 @@
 		(path "/cf8cea3f-c939-4e53-9420-656983e28ae1")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13360,12 +13213,6 @@
 		(path "/0e0d2268-d649-48eb-9f45-50ffc34a8a19")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13651,12 +13498,6 @@
 		(path "/95b5f97e-845f-414c-9580-2e8d7f092879")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14290,12 +14131,6 @@
 		(path "/68ee2737-2335-4568-8f29-d486baa16f2f")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14613,12 +14448,6 @@
 		(path "/f422489f-4936-4e41-b4de-6e51aeb5f38d")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14936,12 +14765,6 @@
 		(path "/0a53b327-ea3b-43ab-9748-8ddd7cb8f013")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15227,12 +15050,6 @@
 		(path "/59c34606-26fe-4951-ae8b-864abed8f818")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15866,12 +15683,6 @@
 		(path "/3e49cda2-a964-412e-870c-b39394e7ba06")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16157,12 +15968,6 @@
 		(path "/3058e08e-796b-4a31-b5b8-a0350631dc89")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16796,12 +16601,6 @@
 		(path "/977dfd17-7be5-4773-9bf9-1f7b3dd9c541")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17087,12 +16886,6 @@
 		(path "/40a2ae42-f165-4fcd-9def-7d98ce35b522")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17694,12 +17487,6 @@
 		(path "/b350f4c8-7fcc-4a40-b3ef-f5d9a5878299")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18333,12 +18120,6 @@
 		(path "/7f1f7d77-02b1-42c1-8b5d-bd89e7458fe8")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18656,12 +18437,6 @@
 		(path "/8da29d5c-6e21-45b4-b17f-16e41242b8cf")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18947,12 +18722,6 @@
 		(path "/000ee447-08ff-4efe-b402-4f5829b50ea1")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19586,12 +19355,6 @@
 		(path "/d8d7c85d-daa1-40c1-aaaa-f2d1f571f546")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19909,12 +19672,6 @@
 		(path "/f65a6d2c-a9b3-408f-bd47-d95515d16651")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20232,12 +19989,6 @@
 		(path "/5440e1c8-c966-42f9-9ce5-ab29e0b4aac2")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20555,12 +20306,6 @@
 		(path "/43f409a0-85aa-4bd9-9b67-39e0059b7ef8")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20878,12 +20623,6 @@
 		(path "/5a10b872-8ea4-4807-b3f5-2eb5e68cec11")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21169,12 +20908,6 @@
 		(path "/56b3597f-de60-4ee3-81b1-38ee5048fa92")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21808,12 +21541,6 @@
 		(path "/aaab421b-8268-475e-9f46-38c32dcaf9cc")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22099,12 +21826,6 @@
 		(path "/31ff4025-5470-4fda-9fca-da7e77487d13")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22738,12 +22459,6 @@
 		(path "/5c552026-6ccf-4a82-a5dd-4ec02d940c43")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23029,12 +22744,6 @@
 		(path "/f819783c-45eb-4366-98f6-0b8fd596a5d9")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23668,12 +23377,6 @@
 		(path "/78def628-efcf-470e-bd9f-088499a5b8b5")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23991,12 +23694,6 @@
 		(path "/5cd2d756-4f51-4e40-849c-87d1e874083f")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24314,12 +24011,6 @@
 		(path "/18c2cd92-ec89-4291-abe7-53743cc96ed3")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24605,12 +24296,6 @@
 		(path "/c4fd405d-6867-4c08-9926-918e32836335")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25244,12 +24929,6 @@
 		(path "/e7ee6244-6d52-4b5b-99ed-d1d19fa7ea49")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25535,12 +25214,6 @@
 		(path "/2a00f145-31d2-43be-847e-61e4deb29def")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26174,12 +25847,6 @@
 		(path "/7ffe23ba-2217-438e-b8de-ba5041d30590")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26497,12 +26164,6 @@
 		(path "/9d7d53a6-1090-4449-87cd-82976ea8f79f")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26788,12 +26449,6 @@
 		(path "/92b02265-0e17-46c1-ad50-b88a291bdf87")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27395,12 +27050,6 @@
 		(path "/7e581fff-6e8e-4ded-b4ea-ebe105de3409")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28002,12 +27651,6 @@
 		(path "/6ef5f881-b518-4da7-b0b3-1258a2292c39")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28641,12 +28284,6 @@
 		(path "/a84c6578-4bd3-4e48-8c2a-16a754417ae2")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28964,12 +28601,6 @@
 		(path "/106d85b4-b1fe-4a83-91a0-62231af13976")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29287,12 +28918,6 @@
 		(path "/3d36c553-a335-478e-a372-eb643e8087e3")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29578,12 +29203,6 @@
 		(path "/2b65e33e-0184-4545-af74-6312f88d0490")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30185,12 +29804,6 @@
 		(path "/49499e76-b3f8-46fb-844c-d9777975b2ed")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30824,12 +30437,6 @@
 		(path "/5728196e-73ab-4306-98d8-376aedb3f033")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31115,12 +30722,6 @@
 		(path "/6f6578cf-15af-493b-8a0d-b88fff1236fc")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31722,12 +31323,6 @@
 		(path "/69f4ef57-987a-4b69-95b1-9fa5c009e34a")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32329,12 +31924,6 @@
 		(path "/7b665aff-ed08-4904-9d35-21728b72e9cc")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32936,12 +32525,6 @@
 		(path "/81125e7a-b21f-4e4a-a6f8-6b3bce5af396")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33543,12 +33126,6 @@
 		(path "/58a91818-930b-402d-9fda-1ee3268b99ec")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34182,12 +33759,6 @@
 		(path "/2dca0ca0-bc46-4123-bbf4-a5efc290d1b7")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34473,12 +34044,6 @@
 		(path "/284542f9-3d98-4189-aca9-0657a92ace35")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35080,12 +34645,6 @@
 		(path "/2aa28b94-9e5f-4c32-bca5-47b6fd8da8c1")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35719,12 +35278,6 @@
 		(path "/02c26f42-f889-48af-80e9-b85991b1dfa2")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36042,12 +35595,6 @@
 		(path "/21a502f8-66ad-4e9c-8658-5d236fe64192")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36365,12 +35912,6 @@
 		(path "/a3d738ef-e4c2-46e4-b9b0-7d886f41acfe")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36688,12 +36229,6 @@
 		(path "/ce72b6ef-6989-4283-b90a-14acf2c0ecb1")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37011,12 +36546,6 @@
 		(path "/059149a8-55ff-4612-870e-abd62ef615da")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37334,12 +36863,6 @@
 		(path "/c8022119-b9bb-4eff-a239-85ea8bba8366")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37657,12 +37180,6 @@
 		(path "/f5214994-a01b-4780-8e2e-50b48d4d526e")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37980,12 +37497,6 @@
 		(path "/f06acb6f-7596-4010-a6ea-47c9a244ed90")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38271,12 +37782,6 @@
 		(path "/f600ab1a-607c-4bcf-954a-407b09c697b7")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38910,12 +38415,6 @@
 		(path "/65d89a5c-9e9a-4b52-a481-c97ae63f68c5")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -39201,12 +38700,6 @@
 		(path "/9126b41c-27ba-4f36-a71d-94c70e75dd73")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -39808,12 +39301,6 @@
 		(path "/e6df18a3-df09-4f36-b5a2-6ecbce396986")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -40447,12 +39934,6 @@
 		(path "/6ebec5a9-7ca3-4b94-8759-ca56f5156eb4")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -40770,12 +40251,6 @@
 		(path "/8f55e728-3c8a-40d8-97d2-732386c92cb3")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -41061,12 +40536,6 @@
 		(path "/6bbf6169-6393-48bc-9565-7c6a4bdefedb")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -41668,12 +41137,6 @@
 		(path "/eb991411-ed51-4ffb-b253-b903d02eb1e6")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -42275,12 +41738,6 @@
 		(path "/fc8eb70b-384e-463a-a00a-0aa9bc3a3776")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -42879,12 +42336,6 @@
 		)
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -43281,12 +42732,6 @@
 		(path "/11e1139d-87d2-457c-be7c-6b499f1c6e97")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -43920,12 +43365,6 @@
 		(path "/5637dede-b0b8-437f-87a7-da4b941fd227")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -44243,12 +43682,6 @@
 		(path "/992eecc3-bea1-4c5f-9d40-9ee3543095f4")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -44534,12 +43967,6 @@
 		(path "/02470585-ae81-4b68-9034-52ac1cdf6bc1")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -45141,12 +44568,6 @@
 		(path "/23b543e6-4bb8-43ad-a240-f0c3ab1907b9")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -45748,12 +45169,6 @@
 		(path "/011d76cd-3a08-4ab0-a116-dd30602ba8fd")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -46387,12 +45802,6 @@
 		(path "/dc3b4fa0-274f-4c0a-8a38-4911f5ba1937")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -46678,12 +46087,6 @@
 		(path "/eca54c5e-86a6-471c-9c1f-7e7302c93e6e")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -47317,12 +46720,6 @@
 		(path "/99979cb0-f172-4abc-b12f-94c2f73611d5")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -47608,12 +47005,6 @@
 		(path "/a43e3bea-2323-45e1-b42a-48a484ad6a3c")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -48215,12 +47606,6 @@
 		(path "/71654dd3-d3fd-4505-9ff6-a824c89d0f6f")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -48822,12 +48207,6 @@
 		(path "/d5e232e9-b9e1-4dcc-9824-abee00e83003")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -49429,12 +48808,6 @@
 		(path "/436a4596-f840-4b52-b887-5f07b82d3885")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -50068,12 +49441,6 @@
 		(path "/0c603e13-66a4-4e3e-b768-b54c9096bf4c")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -50359,12 +49726,6 @@
 		(path "/ec8a0cd7-16ef-4d61-92e4-12d579559777")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -50966,12 +50327,6 @@
 		(path "/bddf146e-d9a6-4bbb-b907-d87d5e1d3b60")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -51605,12 +50960,6 @@
 		(path "/d1f1d87c-77ca-43f9-88c8-ee998c30bfcb")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -51928,12 +51277,6 @@
 		(path "/d8d5feab-c2bf-431d-a7c5-1509f12d8a9b")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -52219,12 +51562,6 @@
 		(path "/4ab9ac81-9e54-45ed-b312-71d2dc53e945")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -52826,12 +52163,6 @@
 		(path "/3aaed895-698b-4347-a8dd-472e653c2291")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -53433,12 +52764,6 @@
 		(path "/761f56b3-db7a-46bd-97ea-c924921fb46e")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -54040,12 +53365,6 @@
 		(path "/a239f0c8-291e-4789-b8c6-a1964bfda38b")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -54647,12 +53966,6 @@
 		(path "/abf57e99-a351-47cb-92a6-b3975b894a28")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -55286,12 +54599,6 @@
 		(path "/07f59719-25be-443e-b57d-a075a0c4c780")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -55577,12 +54884,6 @@
 		(path "/9a989f98-a1a7-4117-8eca-2f08bdef822a")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -56216,12 +55517,6 @@
 		(path "/cf69c89d-bb56-402e-a86c-5d8633874646")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -56539,12 +55834,6 @@
 		(path "/bcba8045-2f38-4974-8cb4-a164e0fc8d82")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -56830,12 +56119,6 @@
 		(path "/1ec93b44-85b2-4228-b6e2-a3f6f91ec85f")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -57469,12 +56752,6 @@
 		(path "/5b3f1041-ea70-4f5a-8592-8b1c091eeb5a")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -57760,12 +57037,6 @@
 		(path "/e1dcb360-9d55-4463-8425-fcc8aadff3ab")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -58367,12 +57638,6 @@
 		(path "/f29bb972-edbe-4d13-9ffa-ec20a3890969")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -58974,12 +58239,6 @@
 		(path "/9596f2f7-14b1-4946-8bd8-9d4d5b1cdea8")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -59613,12 +58872,6 @@
 		(path "/08b3a609-a1ee-4641-aa1f-6f8113c3b9cb")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -59904,12 +59157,6 @@
 		(path "/7099e174-7d27-419d-b578-c17eaee1dc50")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -60508,12 +59755,6 @@
 		)
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -60910,12 +60151,6 @@
 		(path "/6591d40c-7c6f-4583-b899-e7e5d65f774b")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61549,12 +60784,6 @@
 		(path "/91438c5c-fb91-47fb-b9d2-b28dde51216d")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61872,12 +61101,6 @@
 		(path "/f6675cef-a056-4816-88ef-a1f727f86f2f")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -62195,12 +61418,6 @@
 		(path "/a1ef8348-4ca8-4f6f-bc43-fcd0f287bc65")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -62486,12 +61703,6 @@
 		(path "/80b294fd-faaf-4227-b608-28940df5d582")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -63125,12 +62336,6 @@
 		(path "/25b4e0ed-6e24-4d68-8965-a8876a399cf1")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -63448,12 +62653,6 @@
 		(path "/95ac9223-2054-48c2-9ddb-ccbd311a024d")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -63739,12 +62938,6 @@
 		(path "/69bea2eb-5e42-4a64-bf43-22667e24beca")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -64378,12 +63571,6 @@
 		(path "/6a60145c-e960-422e-a6be-7de511212aff")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -64701,12 +63888,6 @@
 		(path "/085311f2-1124-4f60-8098-40a0bfa1eb00")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -64992,12 +64173,6 @@
 		(path "/db1ecaaa-7788-44ba-8427-4750a1f04c6e")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -65631,12 +64806,6 @@
 		(path "/b81792ad-7196-49ac-8c4d-83f17deb3a48")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -65922,12 +65091,6 @@
 		(path "/f35904dc-29c9-4fd8-bf00-f353d26bc071")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -66529,12 +65692,6 @@
 		(path "/358dd7d3-b1be-4c28-b283-5cf20dd2ede6")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -67136,12 +66293,6 @@
 		(path "/4f90d8ac-1796-4343-98ec-fab151e6eb9e")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -67743,12 +66894,6 @@
 		(path "/ef98667f-f094-4c8b-8b6d-4ed19c19ad29")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -68350,12 +67495,6 @@
 		(path "/286a44d9-e82b-446a-b7f2-9dc45fdae493")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -68989,12 +68128,6 @@
 		(path "/a2c337f0-c036-4d5c-a90a-2796c0e0dacb")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -69312,12 +68445,6 @@
 		(path "/112f49d5-4cdb-4612-a7ce-bc6644067f0e")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -69635,12 +68762,6 @@
 		(path "/6003af60-c8c1-4a32-a215-84b65fbcce66")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -69958,12 +69079,6 @@
 		(path "/eb5ad926-e03d-4f4d-bb15-92506d892e03")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -70249,12 +69364,6 @@
 		(path "/5877a899-0fab-4e37-adbd-e0d5d59b96e5")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -70856,12 +69965,6 @@
 		(path "/9d056c62-434a-43cc-9ca9-b35a3a89e0de")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -71495,12 +70598,6 @@
 		(path "/e1490c15-3d10-4bdf-a6d7-2dd750689c6c")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -71786,12 +70883,6 @@
 		(path "/2826e955-2ae3-4b3b-bea1-6b7d8dfa07c3")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -72425,12 +71516,6 @@
 		(path "/11a85178-7642-4524-baea-3e587c4678c8")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -72716,12 +71801,6 @@
 		(path "/b4f56cc3-878d-47a1-88f8-065e2a73afd4")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -73355,12 +72434,6 @@
 		(path "/7aed524a-034b-4d81-8794-dc572417abad")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -73678,12 +72751,6 @@
 		(path "/26ab1b7c-8cb8-4ee0-9c54-43769acd25e7")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -74001,12 +73068,6 @@
 		(path "/cd4e856b-6438-4e11-b002-1c66f20bfe3d")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -74292,12 +73353,6 @@
 		(path "/c3950ccb-11b6-4a70-bfcb-4aa2382aa484")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -74899,12 +73954,6 @@
 		(path "/7ad2e886-3b33-4d3d-bd1a-3a8eb34c9b43")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -75538,12 +74587,6 @@
 		(path "/6685226b-bce3-41f2-8abb-9c42bf7a9b49")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -75861,12 +74904,6 @@
 		(path "/ccbf73ac-5f1d-43ca-8ffd-0e1b1f1dd6c5")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -76184,12 +75221,6 @@
 		(path "/84c19b64-6776-41a6-a4b2-a014fe094bd7")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -76507,12 +75538,6 @@
 		(path "/fd65790f-4fe6-462c-820a-1addefd63386")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -76798,12 +75823,6 @@
 		(path "/3d17c843-0c1f-40de-9829-ad63a832da2b")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -77437,12 +76456,6 @@
 		(path "/ce219a73-fbfa-4ec9-978e-60494340e93b")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -77728,12 +76741,6 @@
 		(path "/b72f6ba5-2b96-46de-8910-75c662552696")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78367,12 +77374,6 @@
 		(path "/c747b33a-a365-4e6e-954b-10474eb835e1")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78690,12 +77691,6 @@
 		(path "/7142f062-362c-4d88-ac89-c3b27325ba10")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79013,12 +78008,6 @@
 		(path "/781bdbdc-1a83-4789-bd06-82490ae09e69")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79304,12 +78293,6 @@
 		(path "/4868f1ac-2420-468f-8de4-8c5b9a1216d6")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79911,12 +78894,6 @@
 		(path "/c3026117-826a-4bbd-9bb7-1d0c8bea779c")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -80518,12 +79495,6 @@
 		(path "/aa5c69e5-f108-4e31-9e3c-df0615134197")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -81157,12 +80128,6 @@
 		(path "/b38e0a9d-d71e-491a-bb4c-e657162123cc")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -81480,12 +80445,6 @@
 		(path "/f4ef20d1-78e7-4790-8bf5-53f83e6f065e")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -81803,12 +80762,6 @@
 		(path "/4d004a66-70b7-4a36-89c5-39032df737c5")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -82094,12 +81047,6 @@
 		(path "/0a56516e-818f-4dd1-a2dd-3364b544b2f0")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -82733,12 +81680,6 @@
 		(path "/f516a694-6f68-4998-81db-b3264e172694")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -83024,12 +81965,6 @@
 		(path "/a7bf57af-6853-4e24-b807-f477641ddc56")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -83631,12 +82566,6 @@
 		(path "/c6092aaf-aced-4e39-bbfc-954c98673295")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -84270,12 +83199,6 @@
 		(path "/db9d9cc3-937d-495e-bfeb-e679aa968665")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -84561,12 +83484,6 @@
 		(path "/b3f9558e-9e1e-452c-baa0-cf0dd23164df")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -85168,12 +84085,6 @@
 		(path "/b89d3bbf-58fa-454d-8a67-aca64691eba4")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -85807,12 +84718,6 @@
 		(path "/f32ff2a9-91df-48a1-98c5-cc1f91c3451f")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -86098,12 +85003,6 @@
 		(path "/7779c294-cf28-40a7-ac7d-fbdbfd428cf9")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -86737,12 +85636,6 @@
 		(path "/c37c957f-4074-49bc-a6d4-3b02788eea9c")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -87028,12 +85921,6 @@
 		(path "/077a61eb-dc12-4dca-9eab-37624da0b5ec")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -87635,12 +86522,6 @@
 		(path "/02c3af83-558b-4477-a914-5da8d2d5d375")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -88274,12 +87155,6 @@
 		(path "/dd44c321-0c4f-45f6-aeba-7ab31a7665fa")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -88597,12 +87472,6 @@
 		(path "/e22aef5a-cbae-4515-9d56-2dd76517a98a")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -88920,12 +87789,6 @@
 		(path "/22ce1a2d-2f38-4f99-9d72-cbc2739c20cd")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -89211,12 +88074,6 @@
 		(path "/b0d366c6-62a8-4ebd-9ecd-a586fa380694")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -89818,12 +88675,6 @@
 		(path "/5ee752b1-76b9-4ec1-96c3-ca2ea5f8aaec")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -90457,12 +89308,6 @@
 		(path "/b61b593c-0070-4a17-838d-805ca659d121")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -90748,12 +89593,6 @@
 		(path "/ec9e24ce-12ce-4409-a72c-236de0b46fe5")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -91387,12 +90226,6 @@
 		(path "/b32a85c8-1936-414d-9bfa-50bf191a8315")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -91710,12 +90543,6 @@
 		(path "/143d4051-fd6b-41e8-88e1-56d0b65d5b9f")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -92001,12 +90828,6 @@
 		(path "/e5e619a2-1e2b-4ff4-982b-8436030a3250")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -92640,12 +91461,6 @@
 		(path "/77cd46a5-3fc4-4577-847f-e349432251da")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -92963,12 +91778,6 @@
 		(path "/b67a502b-c54f-4ae4-9dcf-9a05ca928bf4")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -93254,12 +92063,6 @@
 		(path "/f124b04a-f806-4183-8d20-7659849ceaaf")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -93893,12 +92696,6 @@
 		(path "/39250527-c1d9-440d-80a2-435c459c0553")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -94216,12 +93013,6 @@
 		(path "/d9b8505c-da8f-4054-aea9-df39ed6ec156")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -94507,12 +93298,6 @@
 		(path "/650f5fbe-67bb-4e7d-a8b2-73759631cb53")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -95146,12 +93931,6 @@
 		(path "/2ed77cf9-7d96-4298-9caa-5da5edaef3a5")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -95469,12 +94248,6 @@
 		(path "/f9eaa7f3-8800-4e80-81a0-af679ff74365")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -95760,12 +94533,6 @@
 		(path "/f7ffdfa6-cf9a-4d07-847a-4fe178550c87")
 		(sheetname "/")
 		(sheetfile "vBoard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line

@@ -265,3 +265,10 @@ I even added my decal, name and Riot ID.
 ![FINALLY](image-17.png)
 
 ~2 hr
+
+## Sept 28 - CAD Starting
+I got my actual PCB file as a .step and now I am working on putting in
+all the parts digitally so I can design my case around it.
+![Stabs and Switches](image-18.png)
+
+~2 hr

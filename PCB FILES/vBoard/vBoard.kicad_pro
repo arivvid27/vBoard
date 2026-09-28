@@ -72,7 +72,7 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "unconnected_items|426216900|112705400|F.Cu|4|b7ed2015-54fa-44c8-ac5d-bad7d201da6b|c7958533-7ea1-40a1-bb28-0aaf4bb1c8e6",
+          "unconnected_items|426216900|112705400|F.Cu|4|e76a31eb-8394-4f41-bcf5-4fa69e022653|c7958533-7ea1-40a1-bb28-0aaf4bb1c8e6",
           ""
         ]
       ],
