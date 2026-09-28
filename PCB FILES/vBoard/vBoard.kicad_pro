@@ -72,7 +72,7 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "unconnected_items|401946800|193142500|F.Cu|4|a228880d-a378-4db4-9a90-d586ca15f056|029e9312-f5c8-41f5-8326-3d2b40f75042",
+          "unconnected_items|426216900|112705400|F.Cu|4|b7ed2015-54fa-44c8-ac5d-bad7d201da6b|c7958533-7ea1-40a1-bb28-0aaf4bb1c8e6",
           ""
         ]
       ],
@@ -534,7 +534,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/Videsh Arivazhagan/Documents/HackClub/vBoard/PCB FILES/vBoard/",
       "specctra_dsn": "",
       "step": "../../CAD FILES/vBoard.step",
       "vrml": ""

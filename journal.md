@@ -253,8 +253,15 @@ PCB Order :3
 
 Update:
 I messed up. I put my hotswaps in F.Cu. Im gonna work on it more now :[
+![Moved my Hotswaps to B.Cu](image-16.png)
+
+Now I gotta reroute everything... goodness.
 
 ~5 hr
 
-## Sept 27 (PT2) - Starting my CAD and (hopefully) finishg it
-postponed
+## Sept 28 - Finished fixing my mess.
+Voila. I finished the rerouting, and everything is where it should be.
+I even added my decal, name and Riot ID.
+![FINALLY](image-17.png)
+
+~2 hr
