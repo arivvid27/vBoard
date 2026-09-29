@@ -278,4 +278,7 @@ I finished my Cad model, after making each layer :3
 For my own sake, here are my Pinouts
 ![Pinout](image-21.png)
 
+I'm done with my firmare. I am now just waiting on my board
+and my parts to come to me with the grant :3
+
 ~8 hr

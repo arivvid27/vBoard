@@ -1,44 +1,66 @@
 [keyboard]
-name = "vBoard"
-product_name = "vBoard"
+name = "Kitsune 96"
+product_name = "Kitsune 96"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "RMK"
+manufacturer = "Wolfentech - Ahrigato"
 chip = "rp2040"
 
 [matrix]
 # Row and col pins are mandatory
-row_pins = ["PIN_6", "PIN_7", "PIN_8", "PIN_9"]
-col_pins = ["PIN_19", "PIN_20", "PIN_21"]
+row_pins = [
+    "PIN_0",  # Fn Row (GPIO0)
+    "PIN_1",  # Row 1  (GPIO1)
+    "PIN_2",  # Row 2  (GPIO2)
+    "PIN_3",  # Row 3  (GPIO3)
+    "PIN_4",  # Row 4  (GPIO4)
+    "PIN_15", # Row 5  (GPIO15)
+]
+
+col_pins = [
+    "PIN_6",  # COL0  (GPIO6)
+    "PIN_7",  # COL1  (GPIO7)
+    "PIN_8",  # COL2  (GPIO8)
+    "PIN_9",  # COL3  (GPIO9)
+    "PIN_10", # COL4  (GPIO10)
+    "PIN_11", # COL5  (GPIO11)
+    "PIN_12", # COL6  (GPIO12)
+    "PIN_13", # COL7  (GPIO13)
+    "PIN_14", # COL8  (GPIO14)
+    "PIN_5",  # COL9  (GPIO5)
+    "PIN_16", # COL10 (GPIO16)
+    "PIN_17", # COL11 (GPIO17)
+    "PIN_18", # COL12 (GPIO18)
+    "PIN_19", # COL13 (GPIO19)
+    "PIN_20", # COL14 (GPIO20)
+    "PIN_21", # COL15 (GPIO21)
+    "PIN_22", # COL16 (GPIO22)
+    "PIN_26", # COL17 (GPIO26)
+]
 # RMK uses col2row as the default matrix diode direction, if you want to use a row2col matrix, add `row2col = true`
 # row2col = true
 
 [layout]
-rows = 4
-cols = 3
+rows = 6
+cols = 18
 map = """
-(0,0)  (0,1)  (0,2)
-(1,0)  (1,1)  (1,2)
-(2,0)  (2,1)  (2,2)
-(3,0)  (3,1)  (3,2)
+  (0,0)  (0,1)  (0,2)  (0,3)    (0,4)  (0,5)  (0,6)  (0,7)    (0,8)  (0,9)  (0,10) (0,11)   (0,12) (0,13) (0,14)   (0,15) (0,16) (0,17)
+  (1,0)  (1,1)  (1,2)  (1,3)  (1,4)  (1,5)  (1,6)  (1,7)  (1,8)  (1,9)  (1,10) (1,11) (1,12)   (1,13)   (1,14)      (1,15) (1,16) (1,17) (1,18)
+  (2,0)    (2,1)  (2,2)  (2,3)  (2,4)  (2,5)  (2,6)  (2,7)  (2,8)  (2,9)  (2,10) (2,11) (2,12)   (2,13)            (2,14) (2,15) (2,16) (2,17)
+  (3,0)      (3,1)  (3,2)  (3,3)  (3,4)  (3,5)  (3,6)  (3,7)  (3,8)  (3,9)  (3,10) (3,11)       (3,12)            (3,13) (3,14) (3,15) 
+  (4,0)        (4,1)  (4,2)  (4,3)  (4,4)  (4,5)  (4,6)  (4,7)  (4,8)  (4,9)  (4,10)           (4,11)   (4,12)      (4,13) (4,14) (4,15) (4,16)
+  (5,0)   (5,1)   (5,2)                  (5,3)                  (5,4)   (5,5)   (5,6)     (5,7)   (5,8)   (5,9)      (5,10)   (5,11)
 """
 
 [keymap]
-layers = 3
+layers = 1
 
-[[keymap.layer]] # layer 0
+[[keymap.layer]] # Layer 0 - Default Base
 keys = """
-A       B           C
-Kc1     Kc2         Kc3
-LCtrl   MO(1)       LShift
-OSL(1)  LT(2, Kc9)  LM(1, LShift | LGui)
+  Escape   F1    F2    F3      F4    F5    F6    F7      F8    F9    F10   F11      F12    Pscr   Pause     Delete Mute  Play
+  Grave    Kc1   Kc2   Kc3   Kc4   Kc5   Kc6   Kc7   Kc8   Kc9   Kc0   Minus Equal    Bspace          Home      NumLk   KpSlash KpStar KpMinus
+  Tab        Q     W     E     R     T     Y     U     I     O     P     LBrack RBrack  Bslash                    Kp7     Kp8    Kp9     KpPlus
+  Capslock     A     S     D     F     G     H     J     K     L     Scolon Quote       Enter                     Kp4     Kp5    Kp6
+  LShift         Z     X     C     V     B     N     M     Comma Dot   Slash            RShift   Up               Kp1     Kp2    Kp3     KpEnter
+  LCtrl   LGui    LAlt                 Space                   RAlt    RGui    RCtrl     Left    Down    Right        Kp0       KpDot
 """
-
-[[keymap.layer]] # layer 1
-keys = """
-_  TT(1)  TG(2)
-_  _      _
-_  _      _
-_  _      _
-"""
-
