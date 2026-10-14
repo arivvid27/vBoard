@@ -22,6 +22,9 @@ The goal was to build a reliable, tactile, and comfortable typing tool tailored 
 ## Pinout:
 ![Pinout](image-21.png)
 
+## Finished Schematic in KiCad
+![schem](image-33.png)
+
 ## Finished PCB in KiCad
 ![FINALLY](image-17.png)
 
@@ -31,3 +34,5 @@ The goal was to build a reliable, tactile, and comfortable typing tool tailored 
 ## Finished CAD Models:
 ![Top](image-19.png)
 ![Entire](image-20.png)
+
+## IRL Build (Will post later)
