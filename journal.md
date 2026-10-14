@@ -282,3 +282,5 @@ I'm done with my firmare. I am now just waiting on my board
 and my parts to come to me with the grant :3
 
 ~8 hr
+
+I am now applying for forge, as of October 13, 2026, as I am not getting any response from KEEB.
