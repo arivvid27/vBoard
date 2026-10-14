@@ -18,3 +18,16 @@ The goal was to build a reliable, tactile, and comfortable typing tool tailored 
 * **Hardware Assembly:** Learned component compatibility across PCBs, plates, switches, and stabilizers, along with basic soldering and hardware assembly.
 * **Ergonomics & Physical Health:** Explored how keycap profiles, switch actuation points, and board angles directly affect wrist strain and overall typing comfort.
 * **Firmware Configuration:** Discovered how to program custom keymaps and function layers to streamline everyday typing and shortcut tasks.
+
+## Pinout:
+![Pinout](image-21.png)
+
+## Finished PCB in KiCad
+![FINALLY](image-17.png)
+
+## PCB in CAD:
+![Stabs and Switches](image-18.png)
+
+## Finished CAD Models:
+![Top](image-19.png)
+![Entire](image-20.png)

@@ -14,7 +14,7 @@ Also looked into layouts. I want something that keeps the numpad since he's ente
 
 ![pretty keycaps](image-23.png)
 
-~1 hr
+1 hour
 
 ---
 
@@ -26,7 +26,7 @@ Big decision today was the controller. Instead of designing around a raw rp2040 
 
 ![Pico](image-24.png)
 
-~0.5 hr
+0h 30m
 
 ---
 
@@ -38,7 +38,7 @@ Had a dumb issue where kicad couldnt find the footprint tables, had to go into p
 
 ![kicadinstalled](image-25.png)
 
-~1 hr (setup)
+1 hour
 
 
 
@@ -52,7 +52,7 @@ Im a software person, not a mechanical one, so honestly all of this cad stuff is
 
 ![Sandwich](image-26.png)
 
-~1 hr (setup)
+1 hour
 
 
 ---
@@ -76,7 +76,7 @@ Total came out to around $160ish which isnt bad. Double checked the switch count
 
 ![BOM](image-6.png)
 
-~1 hr (setup)
+1 hour
 
 ---
 
@@ -88,7 +88,7 @@ Then started the actual case layer drawings. These are just 2d drawings for now,
 
 ![KLE](image-22.png)
 
-~2 hr
+2 hours
 
 ---
 
@@ -104,7 +104,7 @@ Being a swe and not a mech engineer, laying out precise dimensioned cutouts is a
 
 ![layers](image-27.png)
 
-~2 hr
+2 hours
 
 ---
 
@@ -116,7 +116,7 @@ Got most of the switch cutouts placed. My eyes hurt lol.
 
 ![Switch Plate](image-5.png)
 
-~1.5 hr
+1h 30m
 
 ---
 
@@ -128,7 +128,7 @@ Learning as i go how much little details matter in mechanical stuff - a cutout b
 
 ![stabilizers](image-29.png)
 
-~1.5 hr
+1h 30m
 
 ---
 
@@ -140,7 +140,7 @@ The important part was making the screw holes line up across every single layer 
 
 ![Switch Plate](image-5.png)
 
-~1.5 hr
+1h 30m
 
 ---
 
@@ -152,7 +152,7 @@ Then cleaned up the DXFs for export. When you export you sometimes get little du
 
 ![holes](image-3.png)
 
-~2 hr
+2 hours
 
 ---
 
@@ -164,7 +164,7 @@ Didnt produce anything real, just poking around and following along with a begin
 
 ![keeb](image-30.png)
 
-~2 hr
+2 hours
 
 ---
 
@@ -172,7 +172,7 @@ Didnt produce anything real, just poking around and following along with a begin
 
 Exported all the layer DXFs proper and gave them one more look to sanity check the switch cutouts are all there and the right size. These are done and ready to send to a laser cutting service whenever. Feels good to have at least the whole case side basically finished even if it took forever.
 
-~1 hr
+1 hour
 
 ![Bottom Plate](image-1.png)
 ![Top Plate](image-2.png)
@@ -189,11 +189,11 @@ Also placed my amazon orders off the bom now that the case design is locked - co
 
 ![parts](image-31.png)
 
-~1.5 hr
+1h 30m
 
 ---
 
-## Next up
+### Next up
 
 Where im at: BOM is done and parts are ordered, the 2d case layer drawings are done + exported. The pcb is the big remaining thing - im still learning KiCad and haven't made the real schematic yet. Still to do:
 
@@ -205,7 +205,7 @@ Where im at: BOM is done and parts are ordered, the 2d case layer drawings are d
 - solder diodes + sockets + leds, flash the pico, test the matrix
 - assemble case + foam + stabs + switches + keycaps, final testing + rgb tuning
 
----
+![Kitsune](image-32.png)
 
 ### Time so far
 
@@ -225,7 +225,7 @@ way too late. I ended up starting again... this is the old image.
 
 ![Before Schem](image.png)
 
-~1.5 hr
+1h 30m
 
 
 ## Sept 22 - More KiCad
@@ -238,7 +238,7 @@ I can not route for the love of me.
 I will try to extend me edge.cut out a bit more to
 allow for more room for my paths.
 
-~8 hr
+8 hours
 
 I think i'm hitting my goal by a long shot
 pretty soon
@@ -251,7 +251,7 @@ I managed to get my B.Cu paths going. Mainly my diodes.
 This requires a sort of visualization and strategy that I never thought
 i would require.
 
-~2.5 hr
+2h 30m
 
 ## Sept 27 (PT1) - Finishing up KiCad (Finally)
 I got my routings to work. With some googling, I found that I can sent
@@ -284,14 +284,14 @@ I messed up. I put my hotswaps in F.Cu. Im gonna work on it more now :[
 
 Now I gotta reroute everything... goodness.
 
-~5 hr
+5 hours
 
 ## Sept 28 - Finished fixing my mess.
 Voila. I finished the rerouting, and everything is where it should be.
 I even added my decal, name and Riot ID.
 ![FINALLY](image-17.png)
 
-~2 hr
+2 hours
 
 ## Sept 28 - CAD Starting
 I got my actual PCB file as a .step and now I am working on putting in
@@ -308,7 +308,7 @@ For my own sake, here are my Pinouts
 I'm done with my firmare. I am now just waiting on my board
 and my parts to come to me with the grant :3
 
-~8 hr
+8 hours
 
 I am now applying for forge, as of October 13, 2026, as I am not getting any response from KEEB.
 
