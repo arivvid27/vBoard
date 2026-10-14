@@ -12,6 +12,8 @@ Spent the first bit just figuring out what i actually want to build. My english 
 
 Also looked into layouts. I want something that keeps the numpad since he's entering grades all day, but i dont want a full fat fullsize. Landed on a 96% / 1800-compact. You get the numpad and arrows but everything is smushed together so it takes way less desk space. Seems perfect for his cramped desk.
 
+![pretty keycaps](image-23.png)
+
 ~1 hr
 
 ---
@@ -21,6 +23,8 @@ Also looked into layouts. I want something that keeps the numpad since he's ente
 Kept going on the 96% thing. Made a rough list in my notes of everything i think i'll need - pcb, plate, case, switches, stabs, keycaps, diodes, sockets, controller. Realized theres a LOT of little parts i wasnt thinking about (screws, foam, etc).
 
 Big decision today was the controller. Instead of designing around a raw rp2040 chip and dealing with the usb + crystal + power stuff myself, im gonna use an Orpheus Pico. Its basically a rpi pico footprint running the RP2040 so i can socket it and not have to reflow a tiny qfn chip on my first ever pcb. Way less scary. Definately going with RMK for the firmware too since its rust based and i want to learn rust anyway, and it supports the rp2040 fine.
+
+![Pico](image-24.png)
 
 ~0.5 hr
 
@@ -32,7 +36,11 @@ Downloaded and installed KiCad. Took a little while cuz the installer is chonky.
 
 Had a dumb issue where kicad couldnt find the footprint tables, had to go into preferences and manually point it at the library paths. Fixed eventually. Made a github repo for the project too so everything is backed up.
 
+![kicadinstalled](image-25.png)
+
 ~1 hr (setup)
+
+
 
 ---
 
@@ -42,7 +50,10 @@ The case is gonna be a stacked/sandwich design - a bunch of flat layers screwed 
 
 Im a software person, not a mechanical one, so honestly all of this cad stuff is new to me. Did a couple beginner 2d sketching tutorials so my outlines come out as proper closed loops. No real drawing yet, just getting my head around it.
 
+![Sandwich](image-26.png)
+
 ~1 hr (setup)
+
 
 ---
 
@@ -75,6 +86,8 @@ Built the exact 96% layout in keyboard layout editor (KLE) first so i know where
 
 Then started the actual case layer drawings. These are just 2d drawings for now, one profile per layer, that ill get laser cut. Got the outer profile done first so i can reuse it across every layer. This is my first time really doing cad so its slow going, lots of undo.
 
+![KLE](image-22.png)
+
 ~2 hr
 
 ---
@@ -89,6 +102,8 @@ Kept going on the layers. Reused the outer profile across the stack:
 
 Being a swe and not a mech engineer, laying out precise dimensioned cutouts is a whole different brain than writing code. Took me a while to get comfy with constraints and getting things to actually snap where i want. Got the easy layers (top, bottom, spacers) mostly done.
 
+![layers](image-27.png)
+
 ~2 hr
 
 ---
@@ -98,6 +113,8 @@ Being a swe and not a mech engineer, laying out precise dimensioned cutouts is a
 The switch plate is the painful one - gotta cut a 14x14mm hole for every single switch, ~100 of them, all positioned off my KLE layout. Spent basically the whole session just placing and lining up switch cutouts. Very tedious and i kept second guessing my spacing (19.05mm grid) so i measured a bunch of times.
 
 Got most of the switch cutouts placed. My eyes hurt lol.
+
+![Switch Plate](image-5.png)
 
 ~1.5 hr
 
@@ -109,6 +126,8 @@ Did the stabilizer cutouts for the bigger keys (spacebar, both shifts, enter, ba
 
 Learning as i go how much little details matter in mechanical stuff - a cutout being half a mm off actually matters here, which is not something i deal with in software. Slow but getting there.
 
+![stabilizers](image-29.png)
+
 ~1.5 hr
 
 ---
@@ -118,6 +137,8 @@ Learning as i go how much little details matter in mechanical stuff - a cutout b
 Realized my switch cutouts were a hair too tight for the switch clips to actually seat, so i did a v2 of the switch layer with slightly cleaner cutouts. Then added all the M3 screw holes across the layers - corners plus a few in the middle so the plate doesnt bow.
 
 The important part was making the screw holes line up across every single layer so one screw can pass straight thru the whole stack. Went hole by hole checking alignment. Found a couple that were off and fixed them.
+
+![Switch Plate](image-5.png)
 
 ~1.5 hr
 
@@ -129,6 +150,8 @@ Went over all the layer drawings and imagined the whole stack together - screw h
 
 Then cleaned up the DXFs for export. When you export you sometimes get little duplicate lines or tiny gaps that mess up a laser cutter, so i went thru each layer (toplayer, switchlayer + v2, openlayer, closerlayer, botplate) and made sure every profile is one closed loop with no doubles. Pushed everything to github too.
 
+![holes](image-3.png)
+
 ~2 hr
 
 ---
@@ -138,6 +161,8 @@ Then cleaned up the DXFs for export. When you export you sometimes get little du
 Ok so now i need to actually design the pcb and this is where im struggling. KiCad is a LOT. Spent this whole session just going thru tutorials - schematic editor, symbols, footprints, how the netlist flows into the pcb editor. Coming from software none of this workflow is intuitive to me yet.
 
 Didnt produce anything real, just poking around and following along with a beginner keyboard pcb tutorial to try to understand the process. Definately gonna take me a few sessions before im making my own schematic.
+
+![keeb](image-30.png)
 
 ~2 hr
 
@@ -153,7 +178,6 @@ Exported all the layer DXFs proper and gave them one more look to sanity check t
 ![Top Plate](image-2.png)
 ![Closed Layer](image-3.png)
 ![Open Layer](image-4.png)
-![Switch Plate](image-5.png)
 
 ---
 
@@ -162,6 +186,8 @@ Exported all the layer DXFs proper and gave them one more look to sanity check t
 Went back to KiCad and kept learning. Started by figuring out how to the Orpheus Pico into my schems. Imported a normal RP2040 instead. Got partway thru placing the pins off the pinout but its still rough, more of a learning exercise than a finished part. Still finding the whole thing pretty hard.
 
 Also placed my amazon orders off the bom now that the case design is locked - confirmed 135 switches covers the layout with spares, 138 keycaps covers it, and enough hotswap sockets (110) and diodes. Now i wait for parts once i get the grant thru.
+
+![parts](image-31.png)
 
 ~1.5 hr
 
@@ -194,7 +220,8 @@ Around 21 hrs in as of today the 20th. Most of it went into the cad since im a s
 
 
 ## Additional Work done on the 20th:
-Oh my gosh kicad is hard.
+Oh my gosh kicad is hard. I've spent way too much time doing a schem, and I found out I messed up
+way too late. I ended up starting again... this is the old image.
 
 ![Before Schem](image.png)
 
@@ -284,3 +311,7 @@ and my parts to come to me with the grant :3
 ~8 hr
 
 I am now applying for forge, as of October 13, 2026, as I am not getting any response from KEEB.
+
+UPDATE: I apologize for the sudden influx of images. I didn't realize I needed images for every entry...
+I came from KEEB, but I submitted and nothing ever happened in terms of grants. So I am here in forge, and I've
+scrapped around images that I need.
