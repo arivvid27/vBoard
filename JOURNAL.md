@@ -1,4 +1,11 @@
-# vBoard - Build Journal
+---
+title: "vBoard"
+github: "https://github.com/arivvid27/vBoard"
+description: "A mechanical keyboard I am making. It is my first keyboard ever. I intend it to be a christmas present for my english teacher."
+created_at: "2026-09-01"
+---
+
+**vBoard - Build Journal**
 
 A running log of me building vBoard, a 96% / 1800-compact mechanical keyboard for my English teacher. Running an Orpheus Pico (RP2040) and RMK for firmware.
 
@@ -6,7 +13,7 @@ Times are rough, i just eyeball it and round to the nearest half hour.
 
 ---
 
-## Sept 1 - Getting the idea down / research
+# Sept 1: Getting the idea down / research
 
 Spent the first bit just figuring out what i actually want to build. My english teacher's office keyboard is basically falling apart and he's always complaining his hands hurt after grading, so i figured a custom mech board would be a cool thing to make for him. Watched a bunch of youtube build vids and read some geekhack + keebtalk threads to get a feel for what im getting into.
 
@@ -14,11 +21,11 @@ Also looked into layouts. I want something that keeps the numpad since he's ente
 
 ![pretty keycaps](image-23.png)
 
-1 hour
+**Total time spent: 1 hour**
 
 ---
 
-## Sept 2 - Layout decisions + controller pick
+# Sept 2: Layout decisions + controller pick
 
 Kept going on the 96% thing. Made a rough list in my notes of everything i think i'll need - pcb, plate, case, switches, stabs, keycaps, diodes, sockets, controller. Realized theres a LOT of little parts i wasnt thinking about (screws, foam, etc).
 
@@ -26,11 +33,11 @@ Big decision today was the controller. Instead of designing around a raw rp2040 
 
 ![Pico](image-24.png)
 
-0h 30m
+**Total time spent: 0h 30m**
 
 ---
 
-## Sept 3 - KiCad install + libraries (setup)
+# Sept 3: KiCad install + libraries (setup)
 
 Downloaded and installed KiCad. Took a little while cuz the installer is chonky. Then spent most of the time getting libraries set up - grabbed the keyswitch kicad library and the kbd footprint libs so i have MX hotswap footprints and stab cutouts ready to go. Also pulled in a diode footprint set.
 
@@ -38,13 +45,11 @@ Had a dumb issue where kicad couldnt find the footprint tables, had to go into p
 
 ![kicadinstalled](image-25.png)
 
-1 hour
-
-
+**Total time spent: 1 hour**
 
 ---
 
-## Sept 4 - Figuring out the CAD side (setup)
+# Sept 4: Figuring out the CAD side (setup)
 
 The case is gonna be a stacked/sandwich design - a bunch of flat layers screwed together with M3 screws. For now im not doing any 3d modeling, just 2d drawings of each layer that i can send off to get laser cut. So this session was me figuring out my drawing workflow and how to get clean DXF profiles out.
 
@@ -52,12 +57,11 @@ Im a software person, not a mechanical one, so honestly all of this cad stuff is
 
 ![Sandwich](image-26.png)
 
-1 hour
-
+**Total time spent: 1 hour**
 
 ---
 
-## Sept 5 - BOM (setup)
+# Sept 5: BOM (setup)
 
 Sat down and actually built out my bill of materials. Went thru amazon and picked out everything, put it in a bom.csv so i can track prices. Heres the gist:
 
@@ -76,11 +80,11 @@ Total came out to around $160ish which isnt bad. Double checked the switch count
 
 ![BOM](image-6.png)
 
-1 hour
+**Total time spent: 1 hour**
 
 ---
 
-## Sept 6 - Planning the layout in KLE + CAD drawings start
+# Sept 6: Planning the layout in KLE + CAD drawings start
 
 Built the exact 96% layout in keyboard layout editor (KLE) first so i know where every key sits and what size it is. Getting the 1800 arrangement right is fiddly - the arrow keys and nav cluster get tucked in tight and the numpad has to line up on the right. Once it looked right i used it as my reference for drawing.
 
@@ -88,11 +92,11 @@ Then started the actual case layer drawings. These are just 2d drawings for now,
 
 ![KLE](image-22.png)
 
-2 hours
+**Total time spent: 2 hours**
 
 ---
 
-## Sept 8 - More layer drawings
+# Sept 8: More layer drawings
 
 Kept going on the layers. Reused the outer profile across the stack:
 - top layer (bezel that frames the keycaps)
@@ -104,11 +108,11 @@ Being a swe and not a mech engineer, laying out precise dimensioned cutouts is a
 
 ![layers](image-27.png)
 
-2 hours
+**Total time spent: 2 hours**
 
 ---
 
-## Sept 9 - Switch cutout grind
+# Sept 9: Switch cutout grind
 
 The switch plate is the painful one - gotta cut a 14x14mm hole for every single switch, ~100 of them, all positioned off my KLE layout. Spent basically the whole session just placing and lining up switch cutouts. Very tedious and i kept second guessing my spacing (19.05mm grid) so i measured a bunch of times.
 
@@ -116,11 +120,11 @@ Got most of the switch cutouts placed. My eyes hurt lol.
 
 ![Switch Plate](image-5.png)
 
-1h 30m
+**Total time spent: 1h 30m**
 
 ---
 
-## Sept 11 - Stabilizer cutouts
+# Sept 11: Stabilizer cutouts
 
 Did the stabilizer cutouts for the bigger keys (spacebar, both shifts, enter, backspace, numpad plus/enter). Looked up the official durock v3 stab cutout dimensions cuz my first attempt was just plain rectangles that were the wrong shape. Redid them properly.
 
@@ -128,11 +132,11 @@ Learning as i go how much little details matter in mechanical stuff - a cutout b
 
 ![stabilizers](image-29.png)
 
-1h 30m
+**Total time spent: 1h 30m**
 
 ---
 
-## Sept 13 - v2 switch layer + screw holes
+# Sept 13: v2 switch layer + screw holes
 
 Realized my switch cutouts were a hair too tight for the switch clips to actually seat, so i did a v2 of the switch layer with slightly cleaner cutouts. Then added all the M3 screw holes across the layers - corners plus a few in the middle so the plate doesnt bow.
 
@@ -140,11 +144,11 @@ The important part was making the screw holes line up across every single layer 
 
 ![Switch Plate](image-5.png)
 
-1h 30m
+**Total time spent: 1h 30m**
 
 ---
 
-## Sept 15 - Fitment check + DXF cleanup
+# Sept 15: Fitment check + DXF cleanup
 
 Went over all the layer drawings and imagined the whole stack together - screw holes have to pass thru clean, plate cutouts have to sit over where the switches go. Fixed one hole that was off by about a mm so a screw wouldnt go straight.
 
@@ -152,11 +156,11 @@ Then cleaned up the DXFs for export. When you export you sometimes get little du
 
 ![holes](image-3.png)
 
-2 hours
+**Total time spent: 2 hours**
 
 ---
 
-## Sept 16 - Trying to learn KiCad (its hard)
+# Sept 16: Trying to learn KiCad (its hard)
 
 Ok so now i need to actually design the pcb and this is where im struggling. KiCad is a LOT. Spent this whole session just going thru tutorials - schematic editor, symbols, footprints, how the netlist flows into the pcb editor. Coming from software none of this workflow is intuitive to me yet.
 
@@ -164,24 +168,24 @@ Didnt produce anything real, just poking around and following along with a begin
 
 ![keeb](image-30.png)
 
-2 hours
+**Total time spent: 2 hours**
 
 ---
 
-## Sept 18 - Exported the case drawings
+# Sept 18: Exported the case drawings
 
 Exported all the layer DXFs proper and gave them one more look to sanity check the switch cutouts are all there and the right size. These are done and ready to send to a laser cutting service whenever. Feels good to have at least the whole case side basically finished even if it took forever.
-
-1 hour
 
 ![Bottom Plate](image-1.png)
 ![Top Plate](image-2.png)
 ![Closed Layer](image-3.png)
 ![Open Layer](image-4.png)
 
+**Total time spent: 1 hour**
+
 ---
 
-## Sept 19 - More KiCad learning + ordered parts
+# Sept 19: More KiCad learning + ordered parts
 
 Went back to KiCad and kept learning. Started by figuring out how to the Orpheus Pico into my schems. Imported a normal RP2040 instead. Got partway thru placing the pins off the pinout but its still rough, more of a learning exercise than a finished part. Still finding the whole thing pretty hard.
 
@@ -189,9 +193,7 @@ Also placed my amazon orders off the bom now that the case design is locked - co
 
 ![parts](image-31.png)
 
-1h 30m
-
----
+**Total time spent: 1h 30m**
 
 ### Next up
 
@@ -218,17 +220,17 @@ Rough running total, not exact:
 
 Around 21 hrs in as of today the 20th. Most of it went into the cad since im a swe and the mechanical/drawing side is all new to me. KiCad is the wall im hitting now. Goal is 30 by the end of the month, so ~9 more hrs to go once i actually get the pcb and firmware going.
 
+---
 
-## Additional Work done on the 20th:
+# Sept 20: Additional KiCad work (schematic redo)
 Oh my gosh kicad is hard. I've spent way too much time doing a schem, and I found out I messed up
 way too late. I ended up starting again... this is the old image.
 
 ![Before Schem](image.png)
 
-1h 30m
+**Total time spent: 1h 30m**
 
-
-## Sept 22 - More KiCad
+# Sept 22: More KiCad
 I'm getting beat by trying to route my pcb.
 ![Finished placing](image-7.png)
 ![Red Routing v1](image-8.png)
@@ -238,22 +240,22 @@ I can not route for the love of me.
 I will try to extend me edge.cut out a bit more to
 allow for more room for my paths.
 
-8 hours
-
 I think i'm hitting my goal by a long shot
 pretty soon
 
 new goal: 45 hours
 
-## Sept 25 - Even More KiCad
+**Total time spent: 8 hours**
+
+# Sept 25: Even More KiCad
 I managed to get my B.Cu paths going. Mainly my diodes.
 ![Horizontal Rows](image-9.png)
 This requires a sort of visualization and strategy that I never thought
 i would require.
 
-2h 30m
+**Total time spent: 2h 30m**
 
-## Sept 27 (PT1) - Finishing up KiCad (Finally)
+# Sept 27: Finishing up KiCad (Finally)
 I got my routings to work. With some googling, I found that I can sent
 one track through multiple layers. Knowing that would have been useful a
 couple days ago...
@@ -277,23 +279,22 @@ Extra:
 PCB Order :3
 ![Ordered the PCB in White](image-15.png)
 
-
 Update:
 I messed up. I put my hotswaps in F.Cu. Im gonna work on it more now :[
 ![Moved my Hotswaps to B.Cu](image-16.png)
 
 Now I gotta reroute everything... goodness.
 
-5 hours
+**Total time spent: 5 hours**
 
-## Sept 28 - Finished fixing my mess.
+# Sept 28: Finished fixing my mess.
 Voila. I finished the rerouting, and everything is where it should be.
 I even added my decal, name and Riot ID.
 ![FINALLY](image-17.png)
 
-2 hours
+**Total time spent: 2 hours**
 
-## Sept 28 - CAD Starting
+# Sept 28: CAD Starting
 I got my actual PCB file as a .step and now I am working on putting in
 all the parts digitally so I can design my case around it.
 ![Stabs and Switches](image-18.png)
@@ -308,10 +309,10 @@ For my own sake, here are my Pinouts
 I'm done with my firmare. I am now just waiting on my board
 and my parts to come to me with the grant :3
 
-8 hours
-
 I am now applying for forge, as of October 13, 2026, as I am not getting any response from KEEB.
 
 UPDATE: I apologize for the sudden influx of images. I didn't realize I needed images for every entry...
 I came from KEEB, but I submitted and nothing ever happened in terms of grants. So I am here in forge, and I've
 scrapped around images that I need.
+
+**Total time spent: 8 hours**
