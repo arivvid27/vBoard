@@ -35,4 +35,15 @@ The goal was to build a reliable, tactile, and comfortable typing tool tailored 
 ![Top](image-19.png)
 ![Entire](image-20.png)
 
+<img width="980" height="623" alt="image" src="https://github.com/user-attachments/assets/18839725-d957-4f1a-8968-1a98967d33c1" />
+
+## Pricing:
+### PCB Fabrication:
+<img width="727" height="148" alt="image" src="https://github.com/user-attachments/assets/bdab37b8-7cee-431d-8b42-b3a198b33c48" />
+
+### Amazon Cart with Parts:
+<img width="760" height="127" alt="image" src="https://github.com/user-attachments/assets/92d88633-2976-4ff5-8509-7d9a9bdd0298" />
+(PS, I need an Orpheus Pico with this, I just don't know how I'm supposed to get one without KEEB)
+
+
 ## IRL Build (Will post later)
