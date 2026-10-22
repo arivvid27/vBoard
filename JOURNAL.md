@@ -316,3 +316,12 @@ I came from KEEB, but I submitted and nothing ever happened in terms of grants. 
 scrapped around images that I need.
 
 **Total time spent: 8 hours**
+
+# Oct 21: Keycaps!
+I was told by a reviewer to add keycaps in order to make it eligible. So I spent around 45 minutes to add just the keycaps!
+They are DSA keycaps. Just placeholders. I plan to buy and use different keycaps anyway.
+
+<img width="1959" height="1245" alt="image" src="https://github.com/user-attachments/assets/44a830a6-ee0e-410d-a59b-e2e4f8fc91bd" />
+
+**Total time spent: 45 minutes**
+
