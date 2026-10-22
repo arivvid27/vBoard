@@ -19,7 +19,7 @@ Spent the first bit just figuring out what i actually want to build. My english 
 
 Also looked into layouts. I want something that keeps the numpad since he's entering grades all day, but i dont want a full fat fullsize. Landed on a 96% / 1800-compact. You get the numpad and arrows but everything is smushed together so it takes way less desk space. Seems perfect for his cramped desk.
 
-![pretty keycaps](image-23.png)
+![pretty keycaps](Images/image-23.png)
 
 **Total time spent: 1 hour**
 
@@ -31,7 +31,7 @@ Kept going on the 96% thing. Made a rough list in my notes of everything i think
 
 Big decision today was the controller. Instead of designing around a raw rp2040 chip and dealing with the usb + crystal + power stuff myself, im gonna use an Orpheus Pico. Its basically a rpi pico footprint running the RP2040 so i can socket it and not have to reflow a tiny qfn chip on my first ever pcb. Way less scary. Definately going with RMK for the firmware too since its rust based and i want to learn rust anyway, and it supports the rp2040 fine.
 
-![Pico](image-24.png)
+![Pico](Images/image-24.png)
 
 **Total time spent: 0h 30m**
 
@@ -43,7 +43,7 @@ Downloaded and installed KiCad. Took a little while cuz the installer is chonky.
 
 Had a dumb issue where kicad couldnt find the footprint tables, had to go into preferences and manually point it at the library paths. Fixed eventually. Made a github repo for the project too so everything is backed up.
 
-![kicadinstalled](image-25.png)
+![kicadinstalled](Images/image-25.png)
 
 **Total time spent: 1 hour**
 
@@ -55,7 +55,7 @@ The case is gonna be a stacked/sandwich design - a bunch of flat layers screwed 
 
 Im a software person, not a mechanical one, so honestly all of this cad stuff is new to me. Did a couple beginner 2d sketching tutorials so my outlines come out as proper closed loops. No real drawing yet, just getting my head around it.
 
-![Sandwich](image-26.png)
+![Sandwich](Images/image-26.png)
 
 **Total time spent: 1 hour**
 
@@ -78,7 +78,7 @@ Sat down and actually built out my bill of materials. Went thru amazon and picke
 
 Total came out to around $160ish which isnt bad. Double checked the switch count against how many keys a 1800 layout has, should be fine with a few extra.
 
-![BOM](image-6.png)
+![BOM](Images/image-6.png)
 
 **Total time spent: 1 hour**
 
@@ -90,7 +90,7 @@ Built the exact 96% layout in keyboard layout editor (KLE) first so i know where
 
 Then started the actual case layer drawings. These are just 2d drawings for now, one profile per layer, that ill get laser cut. Got the outer profile done first so i can reuse it across every layer. This is my first time really doing cad so its slow going, lots of undo.
 
-![KLE](image-22.png)
+![KLE](Images/image-22.png)
 
 **Total time spent: 2 hours**
 
@@ -106,7 +106,7 @@ Kept going on the layers. Reused the outer profile across the stack:
 
 Being a swe and not a mech engineer, laying out precise dimensioned cutouts is a whole different brain than writing code. Took me a while to get comfy with constraints and getting things to actually snap where i want. Got the easy layers (top, bottom, spacers) mostly done.
 
-![layers](image-27.png)
+![layers](Images/image-27.png)
 
 **Total time spent: 2 hours**
 
@@ -118,7 +118,7 @@ The switch plate is the painful one - gotta cut a 14x14mm hole for every single 
 
 Got most of the switch cutouts placed. My eyes hurt lol.
 
-![Switch Plate](image-5.png)
+![Switch Plate](Images/image-5.png)
 
 **Total time spent: 1h 30m**
 
@@ -130,7 +130,7 @@ Did the stabilizer cutouts for the bigger keys (spacebar, both shifts, enter, ba
 
 Learning as i go how much little details matter in mechanical stuff - a cutout being half a mm off actually matters here, which is not something i deal with in software. Slow but getting there.
 
-![stabilizers](image-29.png)
+![stabilizers](Images/image-29.png)
 
 **Total time spent: 1h 30m**
 
@@ -142,7 +142,7 @@ Realized my switch cutouts were a hair too tight for the switch clips to actuall
 
 The important part was making the screw holes line up across every single layer so one screw can pass straight thru the whole stack. Went hole by hole checking alignment. Found a couple that were off and fixed them.
 
-![Switch Plate](image-5.png)
+![Switch Plate](Images/image-5.png)
 
 **Total time spent: 1h 30m**
 
@@ -154,7 +154,7 @@ Went over all the layer drawings and imagined the whole stack together - screw h
 
 Then cleaned up the DXFs for export. When you export you sometimes get little duplicate lines or tiny gaps that mess up a laser cutter, so i went thru each layer (toplayer, switchlayer + v2, openlayer, closerlayer, botplate) and made sure every profile is one closed loop with no doubles. Pushed everything to github too.
 
-![holes](image-3.png)
+![holes](Images/image-3.png)
 
 **Total time spent: 2 hours**
 
@@ -166,7 +166,7 @@ Ok so now i need to actually design the pcb and this is where im struggling. KiC
 
 Didnt produce anything real, just poking around and following along with a beginner keyboard pcb tutorial to try to understand the process. Definately gonna take me a few sessions before im making my own schematic.
 
-![keeb](image-30.png)
+![keeb](Images/image-30.png)
 
 **Total time spent: 2 hours**
 
@@ -176,10 +176,10 @@ Didnt produce anything real, just poking around and following along with a begin
 
 Exported all the layer DXFs proper and gave them one more look to sanity check the switch cutouts are all there and the right size. These are done and ready to send to a laser cutting service whenever. Feels good to have at least the whole case side basically finished even if it took forever.
 
-![Bottom Plate](image-1.png)
-![Top Plate](image-2.png)
-![Closed Layer](image-3.png)
-![Open Layer](image-4.png)
+![Bottom Plate](Images/image-1.png)
+![Top Plate](Images/image-2.png)
+![Closed Layer](Images/image-3.png)
+![Open Layer](Images/image-4.png)
 
 **Total time spent: 1 hour**
 
@@ -191,7 +191,7 @@ Went back to KiCad and kept learning. Started by figuring out how to the Orpheus
 
 Also placed my amazon orders off the bom now that the case design is locked - confirmed 135 switches covers the layout with spares, 138 keycaps covers it, and enough hotswap sockets (110) and diodes. Now i wait for parts once i get the grant thru.
 
-![parts](image-31.png)
+![parts](Images/image-31.png)
 
 **Total time spent: 1h 30m**
 
@@ -207,7 +207,7 @@ Where im at: BOM is done and parts are ordered, the 2d case layer drawings are d
 - solder diodes + sockets + leds, flash the pico, test the matrix
 - assemble case + foam + stabs + switches + keycaps, final testing + rgb tuning
 
-![Kitsune](image-32.png)
+![Kitsune](Images/image-32.png)
 
 ### Time so far
 
@@ -232,8 +232,8 @@ way too late. I ended up starting again... this is the old image.
 
 # Sept 22: More KiCad
 I'm getting beat by trying to route my pcb.
-![Finished placing](image-7.png)
-![Red Routing v1](image-8.png)
+![Finished placing](Images/image-7.png)
+![Red Routing v1](Images/image-8.png)
 
 Update at 11:52 PM:
 I can not route for the love of me.
@@ -249,7 +249,7 @@ new goal: 45 hours
 
 # Sept 25: Even More KiCad
 I managed to get my B.Cu paths going. Mainly my diodes.
-![Horizontal Rows](image-9.png)
+![Horizontal Rows](Images/image-9.png)
 This requires a sort of visualization and strategy that I never thought
 i would require.
 
@@ -259,29 +259,29 @@ i would require.
 I got my routings to work. With some googling, I found that I can sent
 one track through multiple layers. Knowing that would have been useful a
 couple days ago...
-![Finished Routing](image-10.png)
+![Finished Routing](Images/image-10.png)
 
 Some more googling also led me to try out a copper pour to ground my
 entire keyboard. Drew a zone, did some stuff, and kaboom. The entire
 thing is good to go. I just have to run a quick design check.
-![Copper Pour](image-11.png)
+![Copper Pour](Images/image-11.png)
 
 Update:
 Got some errors, am gonna fix.
-![Got a few DRC Errors](image-12.png)
-![Some more Errors](image-13.png)
+![Got a few DRC Errors](Images/image-12.png)
+![Some more Errors](Images/image-13.png)
 
 Update:
 Fixed Errors. Ready to export.
-![Final and Done](image-14.png)
+![Final and Done](Images/image-14.png)
 
 Extra:
 PCB Order :3
-![Ordered the PCB in White](image-15.png)
+![Ordered the PCB in White](Images/image-15.png)
 
 Update:
 I messed up. I put my hotswaps in F.Cu. Im gonna work on it more now :[
-![Moved my Hotswaps to B.Cu](image-16.png)
+![Moved my Hotswaps to B.Cu](Images/image-16.png)
 
 Now I gotta reroute everything... goodness.
 
@@ -290,21 +290,21 @@ Now I gotta reroute everything... goodness.
 # Sept 28: Finished fixing my mess.
 Voila. I finished the rerouting, and everything is where it should be.
 I even added my decal, name and Riot ID.
-![FINALLY](image-17.png)
+![FINALLY](Images/image-17.png)
 
 **Total time spent: 2 hours**
 
 # Sept 28: CAD Starting
 I got my actual PCB file as a .step and now I am working on putting in
 all the parts digitally so I can design my case around it.
-![Stabs and Switches](image-18.png)
+![Stabs and Switches](Images/image-18.png)
 
 I finished my Cad model, after making each layer :3
-![Top](image-19.png)
-![Entire](image-20.png)
+![Top](Images/image-19.png)
+![Entire](Images/image-20.png)
 
 For my own sake, here are my Pinouts
-![Pinout](image-21.png)
+![Pinout](Images/image-21.png)
 
 I'm done with my firmare. I am now just waiting on my board
 and my parts to come to me with the grant :3
