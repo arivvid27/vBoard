@@ -20,20 +20,20 @@ The goal was to build a reliable, tactile, and comfortable typing tool tailored 
 * **Firmware Configuration:** Discovered how to program custom keymaps and function layers to streamline everyday typing and shortcut tasks.
 
 ## Pinout:
-![Pinout](image-21.png)
+![Pinout](Images/image-21.png)
 
 ## Finished Schematic in KiCad
-![schem](image-33.png)
+![schem](Images/image-33.png)
 
 ## Finished PCB in KiCad
-![FINALLY](image-17.png)
+![FINALLY](Images/image-17.png)
 
 ## PCB in CAD:
-![Stabs and Switches](image-18.png)
+![Stabs and Switches](Images/image-18.png)
 
 ## Finished CAD Models:
-![Top](image-19.png)
-![Entire](image-20.png)
+![Top](Images/image-19.png)
+![Entire](Images/image-20.png)
 
 <img width="980" height="623" alt="image" src="https://github.com/user-attachments/assets/18839725-d957-4f1a-8968-1a98967d33c1" />
 
