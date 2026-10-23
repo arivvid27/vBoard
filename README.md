@@ -1,5 +1,5 @@
 # vBoard
-
+<img width="980" height="623" alt="image" src="https://github.com/user-attachments/assets/18839725-d957-4f1a-8968-1a98967d33c1" />
 ## Overview
 This project is a custom-built mechanical keyboard created to replace a failing, non-ergonomic office keyboard used by my English teacher, which was causing him noticeable hand strain during long grading sessions. 
 
@@ -34,8 +34,6 @@ The goal was to build a reliable, tactile, and comfortable typing tool tailored 
 ## Finished CAD Models:
 ![Top](Images/image-19.png)
 ![Entire](Images/image-20.png)
-
-<img width="980" height="623" alt="image" src="https://github.com/user-attachments/assets/18839725-d957-4f1a-8968-1a98967d33c1" />
 
 ## Pricing:
 ### PCB Fabrication:
