@@ -1,5 +1,6 @@
 # vBoard
 <img width="980" height="623" alt="image" src="https://github.com/user-attachments/assets/18839725-d957-4f1a-8968-1a98967d33c1" />
+
 ## Overview
 This project is a custom-built mechanical keyboard created to replace a failing, non-ergonomic office keyboard used by my English teacher, which was causing him noticeable hand strain during long grading sessions. 
 
